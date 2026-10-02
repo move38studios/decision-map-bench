@@ -154,8 +154,41 @@ def names_card() -> None:
     save(fig, "og_names")
 
 
+
+
+BAND_LABELS = {
+    "deep_ocean": "Deep ocean, > 3,000 m", "open_ocean": "Ocean, 200–3,000 m", "shallow_sea": "Shallow sea", "lowland": "Lowland, < 200 m",
+    "hills": "Hills, 200–500 m", "upland": "Upland, 500–1,500 m", "mountains": "Mountains, 1,500–3,000 m", "high_mountains": "High mountains, > 3,000 m",
+}
+
+
+def physical_card() -> None:
+    from jevmap import score
+    t = geo.truth(GRID)
+    metrics = json.loads((geo.ROOT / "results" / "metrics" / "bench_2deg.json").read_text())["models"]
+    fig = canvas()
+    fig.text(48 / W, 1 - 44 / H, "How well do\ndecision models\nknow geography?", fontproperties=SEMI, fontsize=27, color=FG, va="top", linespacing=1.15)
+    fig.text(48 / W, 1 - 178 / H, "Elevation and sea depth,\nasked as the colour on a\nphysical atlas, 16,200 points", fontproperties=REG, fontsize=14, color=MUTED, va="top", linespacing=1.4)
+    for j, (b, lab) in enumerate(BAND_LABELS.items()):
+        y = 300 + j * 30
+        fig.patches.append(matplotlib.patches.Rectangle((48 / W, 1 - (y + 16) / H), 16 / W, 16 / H, transform=fig.transFigure, color=render.BAND_COLOURS[b]))
+        fig.text(74 / W, 1 - (y + 1) / H, lab, fontproperties=REG, fontsize=13, color=FG, va="top")
+    cells = [(render.bands(t["band"]), "Truth (ETOPO1)", None, None)]
+    for k in ("jev", "clef", "clef-flash"):
+        layout = bench.section_layout(k)
+        mk = metrics[f"{k}-state"] if layout == "state" else metrics[k]
+        g = score.to_grid(bench.run_name(k, "physical_colour", layout), GRID, "physical_colour")
+        cells.append((render.bands(g["pred"]), NAME[k], COL[k], f"{mk['physical_colour']['within_one']:.0%} within one band"))
+    mw, gap, x0, y0 = 380, 22, 376, 50
+    for i, (img, lab, col, val) in enumerate(cells):
+        r, c = divmod(i, 2)
+        put_map(fig, img, x0 + c * (mw + gap), y0 + r * (mw / 2 + 74), mw, lab, col, val)
+    save(fig, "og_physical")
+
+
 if __name__ == "__main__":
+    physical_card()  # the main social card for the post
     land_card(None)
     continent_card()
     names_card()
-    print("wrote og_landwater, og_continents, og_names")
+    print("wrote og_physical, og_landwater, og_continents, og_names")
