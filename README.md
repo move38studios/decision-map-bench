@@ -4,7 +4,7 @@ How well do decision models know geography?
 
 Decision models answer typed questions (yes/no, multiple choice) with probabilities instead of generating text. This repo asks four of them about every point of a 2° grid of the globe, and about 500 cities by name, and scores the answers against real geodata.
 
-- **Blog post:** _link to be added_
+- **Blog post:** [How well do decision models know geography?](https://move38labs.com/decision-models-geography/)
 - **Models:** [Jev 1.13](https://docs.typesafe.ai) (TypeSafe), [Clef and Clef-flash](https://blog.cloudflare.com/clef-decision-models/) (Cloudflare Workers AI), [Laya](https://github.com/NandhaKishorM/laya) (open weights)
 - **Based on:** the "Land or Water?" eval from [How Does A Blind Model See The Earth?](https://outsidetext.substack.com/p/how-does-a-blind-model-see-the-earth)
 
