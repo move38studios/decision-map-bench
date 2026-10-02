@@ -1,0 +1,9 @@
+{
+  "name": "clef_g2_orig_noul",
+  "experiment": "orig_noul",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "clef"
+}

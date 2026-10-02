@@ -1,0 +1,9 @@
+{
+  "name": "det_jev_2",
+  "experiment": "orig_choice",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "jev"
+}

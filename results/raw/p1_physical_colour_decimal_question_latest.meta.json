@@ -1,0 +1,8 @@
+{
+  "name": "p1_physical_colour_decimal_question_latest",
+  "experiment": "physical_colour",
+  "coord_style": "decimal",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 100
+}

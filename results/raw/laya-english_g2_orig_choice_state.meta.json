@@ -1,0 +1,9 @@
+{
+  "name": "laya-english_g2_orig_choice_state",
+  "experiment": "orig_choice",
+  "coord_style": "hemi",
+  "layout": "state",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "laya-english"
+}

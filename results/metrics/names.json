@@ -1,0 +1,57 @@
+{
+  "jev": {
+    "city_continent": 0.988,
+    "country_continent": 0.9871244635193133,
+    "city_north": 0.984,
+    "city_east": 0.806,
+    "city_lat_band": 0.936,
+    "city_lon_band": 0.806
+  },
+  "clef": {
+    "city_continent": 0.982,
+    "country_continent": 0.9871244635193133,
+    "city_north": 0.98,
+    "city_east": 0.984,
+    "city_lat_band": 0.952,
+    "city_lon_band": 0.892
+  },
+  "clef-flash": {
+    "city_continent": 0.97,
+    "country_continent": 0.9742489270386266,
+    "city_north": 0.944,
+    "city_east": 0.764,
+    "city_lat_band": 0.784,
+    "city_lon_band": 0.64
+  },
+  "laya-typed": {
+    "city_continent": 0.45,
+    "country_continent": 0.3261802575107296,
+    "city_north": 0.17,
+    "city_east": 0.522,
+    "city_lat_band": 0.032,
+    "city_lon_band": 0.282
+  },
+  "laya-english": {
+    "city_continent": 0.44,
+    "country_continent": 0.2532188841201717,
+    "city_north": 0.18,
+    "city_east": 0.586,
+    "city_lat_band": 0.078,
+    "city_lon_band": 0.288
+  },
+  "laya-multilingual": {
+    "city_continent": 0.614,
+    "country_continent": 0.6824034334763949,
+    "city_north": 0.522,
+    "city_east": 0.514,
+    "city_lat_band": 0.014,
+    "city_lon_band": 0.086
+  },
+  "_baseline": {
+    "city_continent": 0.466,
+    "city_north": 0.856,
+    "city_east": 0.698,
+    "city_lat_band": 0.486,
+    "city_lon_band": 0.324
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "p1_political_decimal_question_preview",
+  "experiment": "political",
+  "coord_style": "decimal",
+  "layout": "question",
+  "model": "jev-preview",
+  "batch": 25
+}

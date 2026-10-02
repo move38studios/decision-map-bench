@@ -1,0 +1,8 @@
+{
+  "name": "p1_physical_colour_hemi_question_preview",
+  "experiment": "physical_colour",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-preview",
+  "batch": 100
+}

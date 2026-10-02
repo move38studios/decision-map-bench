@@ -1,0 +1,9 @@
+{
+  "name": "laya-multilingual_g10_land",
+  "experiment": "land",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "laya-multilingual"
+}

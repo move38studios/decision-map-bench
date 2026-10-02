@@ -1,0 +1,9 @@
+{
+  "name": "clef-flash_g2_physical_terrain_state",
+  "experiment": "physical_terrain",
+  "coord_style": "hemi",
+  "layout": "state",
+  "model": "jev-latest",
+  "batch": 100,
+  "backend": "clef-flash"
+}

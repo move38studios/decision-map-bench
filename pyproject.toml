@@ -1,0 +1,16 @@
+[project]
+name = "decision-map-bench"
+version = "0.1.0"
+description = "How well does Jev know the map of the Earth?"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "global-land-mask>=1.0.0",
+    "httpx>=0.28.1",
+    "matplotlib>=3.10.9",
+    "modal>=1.6.0",
+    "numpy>=2.2.6",
+    "python-dotenv>=1.2.4",
+    "shapely>=2.1.2",
+    "typesafe-sdk>=0.7.2",
+]

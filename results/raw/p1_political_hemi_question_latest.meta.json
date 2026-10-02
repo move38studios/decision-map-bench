@@ -1,0 +1,8 @@
+{
+  "name": "p1_political_hemi_question_latest",
+  "experiment": "political",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 25
+}

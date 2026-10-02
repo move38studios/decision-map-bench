@@ -1,0 +1,8 @@
+{
+  "name": "p1_land_words_state_preview",
+  "experiment": "land",
+  "coord_style": "words",
+  "layout": "state",
+  "model": "jev-preview",
+  "batch": 100
+}

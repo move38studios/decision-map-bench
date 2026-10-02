@@ -1,0 +1,8 @@
+{
+  "name": "p1_land_decimal_state_latest",
+  "experiment": "land",
+  "coord_style": "decimal",
+  "layout": "state",
+  "model": "jev-latest",
+  "batch": 100
+}

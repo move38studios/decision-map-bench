@@ -1,0 +1,9 @@
+{
+  "name": "tune_clef_hemi_state",
+  "experiment": "orig_choice",
+  "coord_style": "hemi",
+  "layout": "state",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "clef"
+}

@@ -1,0 +1,11 @@
+{"points": 8, "input_tokens": 739, "output_tokens": 0, "seconds": 1.2784007500158623, "est_tokens": 868}
+{"points": 64, "input_tokens": 5462, "output_tokens": 0, "seconds": 1.538893707911484, "est_tokens": 4694}
+{"points": 64, "input_tokens": 5416, "output_tokens": 0, "seconds": 1.6465992500307038, "est_tokens": 4678}
+{"points": 64, "input_tokens": 5452, "output_tokens": 0, "seconds": 1.6478359169559553, "est_tokens": 4691}
+{"points": 64, "input_tokens": 5452, "output_tokens": 0, "seconds": 1.666551374946721, "est_tokens": 4689}
+{"points": 64, "input_tokens": 5420, "output_tokens": 0, "seconds": 1.7743653340730816, "est_tokens": 4658}
+{"points": 64, "input_tokens": 5460, "output_tokens": 0, "seconds": 1.7998181249713525, "est_tokens": 4691}
+{"points": 64, "input_tokens": 5460, "output_tokens": 0, "seconds": 1.8064481660258025, "est_tokens": 4673}
+{"points": 64, "input_tokens": 5452, "output_tokens": 0, "seconds": 2.80968183290679, "est_tokens": 4670}
+{"points": 64, "input_tokens": 5462, "output_tokens": 0, "seconds": 12.729730124934576, "est_tokens": 4671}
+{"points": 64, "input_tokens": 5456, "output_tokens": 0, "seconds": 13.364193292101845, "est_tokens": 4669}

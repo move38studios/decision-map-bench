@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Downloaded geodata
+data/
+
+# Run logs
+results/*.log
+
+# Local tooling and OS files
+.agents/
+.DS_Store

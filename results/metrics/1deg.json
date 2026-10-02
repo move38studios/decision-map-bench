@@ -1,0 +1,90 @@
+{
+  "step": 1.0,
+  "points": 64800,
+  "runs": {
+    "land": {
+      "usage": {
+        "requests": 648,
+        "input_tokens": 2657304,
+        "cost_usd": 0.11160676800000001,
+        "seconds": 175.4275954143377
+      },
+      "run": "g1_land",
+      "experiment": "land",
+      "step": 1.0,
+      "points": 64800,
+      "accuracy": 0.7540249410543282,
+      "land_recall": 0.9245609886301317,
+      "water_recall": 0.6845326160125236,
+      "brier": 0.16544085119757831,
+      "best_threshold": 0.7,
+      "best_threshold_accuracy": 0.847138100760996,
+      "mean_p_land": 0.6841060985797828,
+      "mean_p_water": 0.39528436676376744
+    },
+    "land_choice": {
+      "usage": {
+        "requests": 648,
+        "input_tokens": 4342104,
+        "cost_usd": 0.182368368,
+        "seconds": 199.3489294720348
+      },
+      "p_land_accuracy_0.5": 0.8251643782694394
+    },
+    "physical_terrain": {
+      "usage": {
+        "requests": 648,
+        "input_tokens": 17042904,
+        "cost_usd": 0.7158019680000001,
+        "seconds": 303.1916523744585
+      },
+      "run": "g1_physical_terrain",
+      "experiment": "physical_terrain",
+      "step": 1.0,
+      "points": 64800,
+      "accuracy": 0.4793732668053474,
+      "within_one": 0.8405541327511491,
+      "land_only_accuracy": 0.31572922260953196,
+      "water_only_accuracy": 0.5460571455046951,
+      "land_water_accuracy": 0.8606196961454364,
+      "top3": 0.8490786681018767
+    },
+    "physical_colour": {
+      "usage": {
+        "requests": 648,
+        "input_tokens": 6674904,
+        "cost_usd": 0.280345968,
+        "seconds": 308.44719396240544
+      },
+      "run": "g1_physical_colour",
+      "experiment": "physical_colour",
+      "step": 1.0,
+      "points": 64800,
+      "accuracy": 0.5604780055306765,
+      "within_one": 0.7716552375605754,
+      "land_only_accuracy": 0.2595434075286149,
+      "water_only_accuracy": 0.6831068877990333,
+      "land_water_accuracy": 0.8398477953804093,
+      "top3": 0.8071184776606157
+    },
+    "continent": {
+      "usage": {
+        "requests": 648,
+        "input_tokens": 9526104,
+        "cost_usd": 0.40009636800000004,
+        "seconds": 290.316506622592
+      },
+      "p_land_accuracy_0.5": 0.7532820844469226
+    },
+    "noul": {
+      "p_land_accuracy_0.5": 0.7540249410543282
+    },
+    "terrain": {
+      "p_land_accuracy_0.5": 0.860446818443413
+    },
+    "colour": {
+      "p_land_accuracy_0.5": 0.8317150987015421
+    }
+  },
+  "total_cost_usd": 1.6902194400000001
+}

@@ -1,0 +1,8 @@
+{
+  "name": "g5_physical_terrain",
+  "experiment": "physical_terrain",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 100
+}

@@ -1,0 +1,8 @@
+{
+  "name": "p0_land_state_hemi",
+  "experiment": "land",
+  "coord_style": "hemi",
+  "layout": "state",
+  "model": "jev-latest",
+  "batch": 100
+}

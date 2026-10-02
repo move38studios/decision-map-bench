@@ -1,0 +1,9 @@
+{
+  "name": "laya-typed_g10_continent",
+  "experiment": "continent",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "laya-typed"
+}

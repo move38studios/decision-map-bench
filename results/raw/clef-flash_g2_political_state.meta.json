@@ -1,0 +1,9 @@
+{
+  "name": "clef-flash_g2_political_state",
+  "experiment": "political",
+  "coord_style": "hemi",
+  "layout": "state",
+  "model": "jev-latest",
+  "batch": 100,
+  "backend": "clef-flash"
+}

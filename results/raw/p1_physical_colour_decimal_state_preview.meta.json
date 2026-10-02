@@ -1,0 +1,8 @@
+{
+  "name": "p1_physical_colour_decimal_state_preview",
+  "experiment": "physical_colour",
+  "coord_style": "decimal",
+  "layout": "state",
+  "model": "jev-preview",
+  "batch": 100
+}

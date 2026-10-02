@@ -1,0 +1,7 @@
+{"points": 48, "input_tokens": 4903, "output_tokens": 4275, "seconds": 0.33571145799942315, "est_tokens": 5683}
+{"points": 100, "input_tokens": 9907, "output_tokens": 8871, "seconds": 0.3688359169755131, "est_tokens": 11480}
+{"points": 100, "input_tokens": 9907, "output_tokens": 8871, "seconds": 0.41019708407111466, "est_tokens": 11480}
+{"points": 100, "input_tokens": 9851, "output_tokens": 8826, "seconds": 0.48322087503038347, "est_tokens": 11443}
+{"points": 100, "input_tokens": 9915, "output_tokens": 8861, "seconds": 0.5212452909909189, "est_tokens": 11485}
+{"points": 100, "input_tokens": 9905, "output_tokens": 8860, "seconds": 0.5303026250330731, "est_tokens": 11479}
+{"points": 100, "input_tokens": 9911, "output_tokens": 8887, "seconds": 0.5740153749939054, "est_tokens": 11483}

@@ -1,0 +1,8 @@
+{
+  "name": "p1_land_words_question_latest",
+  "experiment": "land",
+  "coord_style": "words",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 100
+}

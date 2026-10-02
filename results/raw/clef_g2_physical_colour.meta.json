@@ -1,0 +1,9 @@
+{
+  "name": "clef_g2_physical_colour",
+  "experiment": "physical_colour",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "clef"
+}

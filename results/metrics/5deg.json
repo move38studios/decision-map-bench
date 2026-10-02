@@ -1,0 +1,1192 @@
+{
+  "step": 5.0,
+  "points": 2592,
+  "frozen": {
+    "coord_style": "hemi",
+    "layout": "question",
+    "model": "jev-latest"
+  },
+  "runs": {
+    "land": {
+      "run": "g5_land",
+      "experiment": "land",
+      "step": 5.0,
+      "points": 2592,
+      "accuracy": 0.7743937416043595,
+      "land_recall": 0.9212167558126348,
+      "water_recall": 0.7133451631231862,
+      "brier": 0.1582138960590197,
+      "best_threshold": 0.67,
+      "best_threshold_accuracy": 0.8493520668968715,
+      "mean_p_land": 0.6782212086659064,
+      "mean_p_water": 0.3843440233236152,
+      "usage": {
+        "requests": 26,
+        "input_tokens": 106314,
+        "cost_usd": 0.004465188,
+        "seconds": 8.697616540943272
+      },
+      "accuracy_tuned_threshold": 0.8474107214464232,
+      "tuned_threshold": 0.7,
+      "calibration": [
+        {
+          "bin": "0.0-0.1",
+          "points": 34,
+          "mean_p": 0.07800445265646372,
+          "land_fraction": 0.0
+        },
+        {
+          "bin": "0.1-0.2",
+          "points": 299,
+          "mean_p": 0.14669755547166033,
+          "land_fraction": 0.0018341466944410904
+        },
+        {
+          "bin": "0.2-0.3",
+          "points": 360,
+          "mean_p": 0.24453025851460966,
+          "land_fraction": 0.012919407845401389
+        },
+        {
+          "bin": "0.3-0.4",
+          "points": 287,
+          "mean_p": 0.3443006964557795,
+          "land_fraction": 0.04686249342882295
+        },
+        {
+          "bin": "0.4-0.5",
+          "points": 333,
+          "mean_p": 0.44248598716512566,
+          "land_fraction": 0.12853576490407545
+        },
+        {
+          "bin": "0.5-0.6",
+          "points": 386,
+          "mean_p": 0.5454763330539126,
+          "land_fraction": 0.279558445591724
+        },
+        {
+          "bin": "0.6-0.7",
+          "points": 319,
+          "mean_p": 0.6445690966312698,
+          "land_fraction": 0.3942849634618408
+        },
+        {
+          "bin": "0.7-0.8",
+          "points": 295,
+          "mean_p": 0.7486907558820239,
+          "land_fraction": 0.6972945626531625
+        },
+        {
+          "bin": "0.8-0.9",
+          "points": 251,
+          "mean_p": 0.8376248088693217,
+          "land_fraction": 0.8569844925377404
+        },
+        {
+          "bin": "0.9-1.0",
+          "points": 28,
+          "mean_p": 0.9203007703889913,
+          "land_fraction": 0.8736756141473697
+        }
+      ]
+    },
+    "physical_terrain": {
+      "run": "g5_physical_terrain",
+      "experiment": "physical_terrain",
+      "step": 5.0,
+      "points": 2592,
+      "accuracy": 0.4912344346657076,
+      "within_one": 0.8483092332715783,
+      "land_only_accuracy": 0.3265035157131726,
+      "water_only_accuracy": 0.559729067391909,
+      "land_water_accuracy": 0.8652416630029258,
+      "top3": 0.8494465801923755,
+      "usage": {
+        "requests": 26,
+        "input_tokens": 681738,
+        "cost_usd": 0.028632996,
+        "seconds": 12.097283289767802
+      },
+      "confusion": [
+        [
+          520.646,
+          333.982,
+          0.0,
+          4.995,
+          0.843,
+          20.51,
+          0.0,
+          2.04
+        ],
+        [
+          54.981,
+          124.402,
+          1.063,
+          5.216,
+          0.737,
+          8.346,
+          0.0,
+          6.387
+        ],
+        [
+          3.795,
+          54.936,
+          7.527,
+          8.671,
+          0.0,
+          2.897,
+          0.0,
+          3.901
+        ],
+        [
+          0.683,
+          45.213,
+          14.978,
+          30.447,
+          9.463,
+          29.963,
+          0.0,
+          3.556
+        ],
+        [
+          1.208,
+          39.683,
+          4.351,
+          13.685,
+          12.839,
+          61.89,
+          0.999,
+          3.06
+        ],
+        [
+          4.871,
+          28.997,
+          2.322,
+          0.924,
+          1.624,
+          95.462,
+          0.609,
+          5.34
+        ],
+        [
+          4.668,
+          9.501,
+          0.0,
+          0.737,
+          0.0,
+          14.315,
+          0.737,
+          18.214
+        ],
+        [
+          0.902,
+          0.517,
+          0.0,
+          0.0,
+          0.0,
+          3.223,
+          0.991,
+          18.793
+        ]
+      ]
+    },
+    "physical_colour": {
+      "run": "g5_physical_colour",
+      "experiment": "physical_colour",
+      "step": 5.0,
+      "points": 2592,
+      "accuracy": 0.5622643550683182,
+      "within_one": 0.7695994210130138,
+      "land_only_accuracy": 0.2655758483595032,
+      "water_only_accuracy": 0.6856265655769648,
+      "land_water_accuracy": 0.8324321322737984,
+      "top3": 0.8021456497822936,
+      "usage": {
+        "requests": 26,
+        "input_tokens": 267018,
+        "cost_usd": 0.011214756,
+        "seconds": 11.053068127017468
+      },
+      "confusion": [
+        [
+          785.949,
+          2.801,
+          15.977,
+          5.964,
+          32.765,
+          31.553,
+          8.007,
+          0.0
+        ],
+        [
+          144.582,
+          1.255,
+          12.508,
+          1.975,
+          21.258,
+          11.569,
+          7.984,
+          0.0
+        ],
+        [
+          42.868,
+          0.737,
+          12.151,
+          0.991,
+          18.462,
+          3.631,
+          2.886,
+          0.0
+        ],
+        [
+          24.781,
+          0.793,
+          11.041,
+          4.98,
+          51.971,
+          34.549,
+          6.187,
+          0.0
+        ],
+        [
+          27.71,
+          0.0,
+          1.529,
+          3.989,
+          43.534,
+          55.331,
+          5.623,
+          0.0
+        ],
+        [
+          26.668,
+          0.793,
+          0.778,
+          3.519,
+          23.845,
+          66.673,
+          17.08,
+          0.793
+        ],
+        [
+          24.137,
+          0.0,
+          0.0,
+          0.0,
+          3.602,
+          10.741,
+          7.275,
+          2.418
+        ],
+        [
+          11.317,
+          0.0,
+          0.0,
+          0.991,
+          0.0,
+          1.637,
+          4.202,
+          6.28
+        ]
+      ]
+    },
+    "political": {
+      "run": "g5_political",
+      "experiment": "political",
+      "step": 5.0,
+      "points": 2592,
+      "accuracy_all": 0.45129892992533394,
+      "accuracy_land": 0.7236463756286651,
+      "top3_land": 0.9126919115441249,
+      "ocean_recall": 0.34007577359889574,
+      "land_water_accuracy": 0.5302404997076089,
+      "usage": {
+        "requests": 104,
+        "input_tokens": 5083512,
+        "cost_usd": 0.21350750400000001,
+        "seconds": 88.45014454016928
+      },
+      "per_country": [
+        {
+          "country": "Russia",
+          "points": 118,
+          "area_weight": 55.91631720235628,
+          "accuracy": 0.49553966462014665,
+          "confused_with": [
+            "Mongolia",
+            "Kazakhstan",
+            "Japan"
+          ]
+        },
+        {
+          "country": "Antarctica",
+          "points": 245,
+          "area_weight": 40.95378928299609,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Canada",
+          "points": 70,
+          "area_weight": 32.19160984814882,
+          "accuracy": 0.8672683410483698,
+          "confused_with": [
+            "Greenland",
+            "United States of America"
+          ]
+        },
+        {
+          "country": "United States of America",
+          "points": 46,
+          "area_weight": 31.679306507426062,
+          "accuracy": 0.9854242827845111,
+          "confused_with": [
+            "Canada"
+          ]
+        },
+        {
+          "country": "China",
+          "points": 36,
+          "area_weight": 28.49245498081202,
+          "accuracy": 0.7039617081853566,
+          "confused_with": [
+            "Mongolia",
+            "Kyrgyzstan",
+            "Afghanistan"
+          ]
+        },
+        {
+          "country": "Brazil",
+          "points": 29,
+          "area_weight": 28.12328515718103,
+          "accuracy": 0.7542944465150104,
+          "confused_with": [
+            "Peru",
+            "Guyana",
+            "Bolivia"
+          ]
+        },
+        {
+          "country": "Australia",
+          "points": 30,
+          "area_weight": 26.825361407442806,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "India",
+          "points": 12,
+          "area_weight": 10.970682817187305,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Argentina",
+          "points": 11,
+          "area_weight": 9.064622488971212,
+          "accuracy": 0.712702463985755,
+          "confused_with": [
+            "Paraguay",
+            "Falkland Islands"
+          ]
+        },
+        {
+          "country": "Democratic Republic of the Congo",
+          "points": 8,
+          "area_weight": 7.96957569203072,
+          "accuracy": 0.3751192560385563,
+          "confused_with": [
+            "Angola",
+            "Sudan"
+          ]
+        },
+        {
+          "country": "Kazakhstan",
+          "points": 12,
+          "area_weight": 7.901454506154629,
+          "accuracy": 0.7356869231589329,
+          "confused_with": [
+            "Azerbaijan",
+            "Uzbekistan"
+          ]
+        },
+        {
+          "country": "Saudi Arabia",
+          "points": 8,
+          "area_weight": 7.340104998564979,
+          "accuracy": 0.744200323615726,
+          "confused_with": [
+            "United Arab Emirates",
+            "Yemen"
+          ]
+        },
+        {
+          "country": "Greenland",
+          "points": 27,
+          "area_weight": 7.159759039003523,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Algeria",
+          "points": 8,
+          "area_weight": 7.082585289361232,
+          "accuracy": 0.5113642241370961,
+          "confused_with": [
+            "Morocco",
+            "France",
+            "Mauritania"
+          ]
+        },
+        {
+          "country": "Indonesia",
+          "points": 6,
+          "area_weight": 5.979082609075052,
+          "accuracy": 0.6658188933313942,
+          "confused_with": [
+            "Malaysia",
+            "Papua New Guinea"
+          ]
+        },
+        {
+          "country": "Iran",
+          "points": 7,
+          "area_weight": 5.89090268437757,
+          "accuracy": 0.29374144705871014,
+          "confused_with": [
+            "Turkmenistan",
+            "Azerbaijan",
+            "Iraq"
+          ]
+        },
+        {
+          "country": "Sudan",
+          "points": 6,
+          "area_weight": 5.790038873604481,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Mongolia",
+          "points": 8,
+          "area_weight": 5.528095919314209,
+          "accuracy": 0.7444205807845212,
+          "confused_with": [
+            "China"
+          ]
+        },
+        {
+          "country": "Mexico",
+          "points": 6,
+          "area_weight": 5.492345933542405,
+          "accuracy": 0.5033563708276189,
+          "confused_with": [
+            "United States of America",
+            "Belize"
+          ]
+        },
+        {
+          "country": "Libya",
+          "points": 6,
+          "area_weight": 5.271694923671723,
+          "accuracy": 0.6800302528791003,
+          "confused_with": [
+            "Cyprus",
+            "Italy"
+          ]
+        },
+        {
+          "country": "Colombia",
+          "points": 5,
+          "area_weight": 4.980034387493194,
+          "accuracy": 0.7993892925537107,
+          "confused_with": [
+            "Venezuela"
+          ]
+        },
+        {
+          "country": "South Africa",
+          "points": 5,
+          "area_weight": 4.347815391160436,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Bolivia",
+          "points": 4,
+          "area_weight": 3.807609441127674,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Chad",
+          "points": 4,
+          "area_weight": 3.807609441127674,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Libya"
+          ]
+        },
+        {
+          "country": "Mali",
+          "points": 4,
+          "area_weight": 3.807609441127674,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Mauritania",
+            "Niger"
+          ]
+        },
+        {
+          "country": "Niger",
+          "points": 4,
+          "area_weight": 3.807609441127674,
+          "accuracy": 0.5068831212101842,
+          "confused_with": [
+            "Libya"
+          ]
+        },
+        {
+          "country": "Mauritania",
+          "points": 4,
+          "area_weight": 3.755192966519027,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Namibia",
+          "points": 4,
+          "area_weight": 3.718324267185962,
+          "accuracy": 0.48701787029994437,
+          "confused_with": [
+            "Angola"
+          ]
+        },
+        {
+          "country": "Egypt",
+          "points": 4,
+          "area_weight": 3.621780731379017,
+          "accuracy": 0.7449101419898732,
+          "confused_with": [
+            "Libya"
+          ]
+        },
+        {
+          "country": "Turkey",
+          "points": 4,
+          "area_weight": 3.1734133611649407,
+          "accuracy": 0.7500000000000001,
+          "confused_with": [
+            "Armenia"
+          ]
+        },
+        {
+          "country": "United Republic of Tanzania",
+          "points": 3,
+          "area_weight": 2.9819379443294785,
+          "accuracy": 0.3324833983413923,
+          "confused_with": [
+            "Kenya",
+            "Uganda"
+          ]
+        },
+        {
+          "country": "Peru",
+          "points": 3,
+          "area_weight": 2.9667890900756015,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Ethiopia",
+          "points": 3,
+          "area_weight": 2.959185729867554,
+          "accuracy": 0.335039754810586,
+          "confused_with": [
+            "Somalia",
+            "Sudan"
+          ]
+        },
+        {
+          "country": "Nigeria",
+          "points": 3,
+          "area_weight": 2.944036875613677,
+          "accuracy": 0.33676373743353544,
+          "confused_with": [
+            "Niger"
+          ]
+        },
+        {
+          "country": "Angola",
+          "points": 3,
+          "area_weight": 2.9063089649880935,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Mozambique",
+          "points": 3,
+          "area_weight": 2.8538924903794474,
+          "accuracy": 0.6762738836078405,
+          "confused_with": [
+            "South Africa"
+          ]
+        },
+        {
+          "country": "Chile",
+          "points": 4,
+          "area_weight": 2.81498231372574,
+          "accuracy": 0.760001970768516,
+          "confused_with": [
+            "Argentina"
+          ]
+        },
+        {
+          "country": "Myanmar",
+          "points": 3,
+          "area_weight": 2.7646073164377354,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Morocco",
+          "points": 3,
+          "area_weight": 2.573793724803993,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Spain",
+          "points": 3,
+          "area_weight": 2.2679080139114833,
+          "accuracy": 0.6749086240325354,
+          "confused_with": [
+            "Portugal"
+          ]
+        },
+        {
+          "country": "Uzbekistan",
+          "points": 3,
+          "area_weight": 2.2679080139114833,
+          "accuracy": 0.3250913759674647,
+          "confused_with": [
+            "Afghanistan",
+            "Turkmenistan"
+          ]
+        },
+        {
+          "country": "Sweden",
+          "points": 5,
+          "area_weight": 2.2261636995470715,
+          "accuracy": 0.8280973531088708,
+          "confused_with": [
+            "Finland"
+          ]
+        },
+        {
+          "country": "Kenya",
+          "points": 2,
+          "area_weight": 1.9980964431637156,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Malaysia",
+          "points": 2,
+          "area_weight": 1.9980964431637156,
+          "accuracy": 0.5,
+          "confused_with": [
+            "Indonesia"
+          ]
+        },
+        {
+          "country": "Republic of the Congo",
+          "points": 2,
+          "area_weight": 1.9980964431637156,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Angola",
+            "Cameroon"
+          ]
+        },
+        {
+          "country": "Cameroon",
+          "points": 2,
+          "area_weight": 1.9904930829556682,
+          "accuracy": 0.5019099187716737,
+          "confused_with": [
+            "Nigeria"
+          ]
+        },
+        {
+          "country": "Somalia",
+          "points": 2,
+          "area_weight": 1.9904930829556682,
+          "accuracy": 0.5019099187716737,
+          "confused_with": [
+            "Yemen"
+          ]
+        },
+        {
+          "country": "Central African Republic",
+          "points": 2,
+          "area_weight": 1.9828897227476208,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Cameroon",
+            "Sudan"
+          ]
+        },
+        {
+          "country": "South Sudan",
+          "points": 2,
+          "area_weight": 1.9828897227476208,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Sudan"
+          ]
+        },
+        {
+          "country": "Venezuela",
+          "points": 2,
+          "area_weight": 1.9828897227476208,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Zambia",
+          "points": 2,
+          "area_weight": 1.9525920142398667,
+          "accuracy": 0.5,
+          "confused_with": [
+            "Malawi"
+          ]
+        },
+        {
+          "country": "Thailand",
+          "points": 2,
+          "area_weight": 1.9300129578681604,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Zimbabwe",
+          "points": 2,
+          "area_weight": 1.9074339014964539,
+          "accuracy": 0.5,
+          "confused_with": [
+            "Mozambique"
+          ]
+        },
+        {
+          "country": "Madagascar",
+          "points": 2,
+          "area_weight": 1.8775964832595138,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Botswana",
+          "points": 2,
+          "area_weight": 1.8477590650225735,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Angola",
+            "South Africa"
+          ]
+        },
+        {
+          "country": "Pakistan",
+          "points": 2,
+          "area_weight": 1.7304022789911073,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Afghanistan",
+          "points": 2,
+          "area_weight": 1.6867828916257714,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Pakistan",
+            "Turkmenistan"
+          ]
+        },
+        {
+          "country": "Kyrgyzstan",
+          "points": 2,
+          "area_weight": 1.4745546736202482,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "France",
+          "points": 2,
+          "area_weight": 1.4128675444257843,
+          "accuracy": 0.47816952854574396,
+          "confused_with": [
+            "Andorra"
+          ]
+        },
+        {
+          "country": "Ukraine",
+          "points": 2,
+          "area_weight": 1.3511804152313205,
+          "accuracy": 0.5,
+          "confused_with": [
+            "Russia"
+          ]
+        },
+        {
+          "country": "Finland",
+          "points": 3,
+          "area_weight": 1.3061806588351577,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Germany",
+          "points": 2,
+          "area_weight": 1.2175228580174413,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Poland",
+          "points": 2,
+          "area_weight": 1.2175228580174413,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "United Kingdom",
+          "points": 2,
+          "area_weight": 1.1460610373555444,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Latvia",
+          "points": 2,
+          "area_weight": 1.0745992166936478,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Belarus",
+            "Lithuania"
+          ]
+        },
+        {
+          "country": "Ecuador",
+          "points": 1,
+          "area_weight": 0.9990482215818578,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Peru"
+          ]
+        },
+        {
+          "country": "Guyana",
+          "points": 1,
+          "area_weight": 0.9990482215818578,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Uganda",
+          "points": 1,
+          "area_weight": 0.9990482215818578,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Sudan"
+          ]
+        },
+        {
+          "country": "Benin",
+          "points": 1,
+          "area_weight": 0.9914448613738104,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Niger"
+          ]
+        },
+        {
+          "country": "Ghana",
+          "points": 1,
+          "area_weight": 0.9914448613738104,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Ivory Coast"
+          ]
+        },
+        {
+          "country": "Ivory Coast",
+          "points": 1,
+          "area_weight": 0.9914448613738104,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Papua New Guinea",
+          "points": 1,
+          "area_weight": 0.9914448613738104,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Burkina Faso",
+          "points": 1,
+          "area_weight": 0.9762960071199334,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Cambodia",
+          "points": 1,
+          "area_weight": 0.9762960071199334,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Vietnam"
+          ]
+        },
+        {
+          "country": "Eritrea",
+          "points": 1,
+          "area_weight": 0.9762960071199334,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Yemen"
+          ]
+        },
+        {
+          "country": "Senegal",
+          "points": 1,
+          "area_weight": 0.9762960071199334,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Ocean"
+          ]
+        },
+        {
+          "country": "Yemen",
+          "points": 1,
+          "area_weight": 0.9537169507482269,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Oman"
+          ]
+        },
+        {
+          "country": "Bangladesh",
+          "points": 1,
+          "area_weight": 0.9238795325112867,
+          "accuracy": 0.0,
+          "confused_with": [
+            "India"
+          ]
+        },
+        {
+          "country": "Oman",
+          "points": 1,
+          "area_weight": 0.9238795325112867,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Paraguay",
+          "points": 1,
+          "area_weight": 0.9238795325112867,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Brazil"
+          ]
+        },
+        {
+          "country": "Vietnam",
+          "points": 1,
+          "area_weight": 0.9238795325112867,
+          "accuracy": 0.0,
+          "confused_with": [
+            "China"
+          ]
+        },
+        {
+          "country": "Nepal",
+          "points": 1,
+          "area_weight": 0.8870108331782217,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Iraq",
+          "points": 1,
+          "area_weight": 0.8433914458128857,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Jordan",
+          "points": 1,
+          "area_weight": 0.8433914458128857,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Turkey"
+          ]
+        },
+        {
+          "country": "Uruguay",
+          "points": 1,
+          "area_weight": 0.8433914458128857,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Argentina"
+          ]
+        },
+        {
+          "country": "Greece",
+          "points": 1,
+          "area_weight": 0.7933533402912352,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Portugal",
+          "points": 1,
+          "area_weight": 0.7933533402912352,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "South Korea",
+          "points": 1,
+          "area_weight": 0.7933533402912352,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Tajikistan",
+          "points": 1,
+          "area_weight": 0.7933533402912352,
+          "accuracy": 0.0,
+          "confused_with": [
+            "India"
+          ]
+        },
+        {
+          "country": "Turkmenistan",
+          "points": 1,
+          "area_weight": 0.7933533402912352,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Bulgaria",
+          "points": 1,
+          "area_weight": 0.7372773368101241,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Georgia",
+          "points": 1,
+          "area_weight": 0.7372773368101241,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Armenia"
+          ]
+        },
+        {
+          "country": "Italy",
+          "points": 1,
+          "area_weight": 0.7372773368101241,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Japan",
+          "points": 1,
+          "area_weight": 0.7372773368101241,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "New Zealand",
+          "points": 1,
+          "area_weight": 0.7372773368101241,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Republic of Serbia",
+          "points": 1,
+          "area_weight": 0.7372773368101241,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Norway",
+          "points": 2,
+          "area_weight": 0.6781882271731368,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Austria",
+          "points": 1,
+          "area_weight": 0.6755902076156602,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Hungary",
+          "points": 1,
+          "area_weight": 0.6755902076156602,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Slovakia"
+          ]
+        },
+        {
+          "country": "Moldova",
+          "points": 1,
+          "area_weight": 0.6755902076156602,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Romania"
+          ]
+        },
+        {
+          "country": "Romania",
+          "points": 1,
+          "area_weight": 0.6755902076156602,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Switzerland",
+          "points": 1,
+          "area_weight": 0.6755902076156602,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Belarus",
+          "points": 1,
+          "area_weight": 0.6087614290087207,
+          "accuracy": 1.0,
+          "confused_with": []
+        },
+        {
+          "country": "Ireland",
+          "points": 1,
+          "area_weight": 0.6087614290087207,
+          "accuracy": 0.0,
+          "confused_with": [
+            "Ocean"
+          ]
+        }
+      ]
+    }
+  },
+  "total_cost_usd": 0.25782044400000004
+}

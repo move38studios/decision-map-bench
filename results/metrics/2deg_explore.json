@@ -1,0 +1,27 @@
+{
+  "continent_usage": {
+    "requests": 162,
+    "input_tokens": 2316726,
+    "cost_usd": 0.097302492,
+    "seconds": 70.14587128639687
+  },
+  "land_choice_usage": {
+    "requests": 162,
+    "input_tokens": 1020726,
+    "cost_usd": 0.042870492,
+    "seconds": 51.39404144824948
+  },
+  "continent_land_water_accuracy": 0.7707388449621942,
+  "continent_p_land_accuracy_0.5": 0.7723496408292462,
+  "continent_accuracy_on_land": 0.9223928834445869,
+  "continent_accuracy_by_continent": {
+    "Africa": 0.9338506931887555,
+    "Antarctica": 0.9985631529917115,
+    "Asia": 0.9318420179752749,
+    "Europe": 0.7223130190869415,
+    "North America": 0.8842836770365373,
+    "Oceania": 0.9394628694901549,
+    "South America": 0.9833671274762379
+  },
+  "land_choice_accuracy_0.5": 0.8437676662622422
+}

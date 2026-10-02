@@ -1,0 +1,8 @@
+{
+  "name": "p1_land_decimal_question_preview",
+  "experiment": "land",
+  "coord_style": "decimal",
+  "layout": "question",
+  "model": "jev-preview",
+  "batch": 100
+}

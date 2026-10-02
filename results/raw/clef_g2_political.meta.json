@@ -1,0 +1,9 @@
+{
+  "name": "clef_g2_political",
+  "experiment": "political",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 25,
+  "backend": "clef"
+}

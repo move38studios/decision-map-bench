@@ -1,0 +1,8 @@
+{
+  "name": "p1_physical_colour_hemi_state_latest",
+  "experiment": "physical_colour",
+  "coord_style": "hemi",
+  "layout": "state",
+  "model": "jev-latest",
+  "batch": 100
+}

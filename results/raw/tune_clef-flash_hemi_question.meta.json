@@ -1,0 +1,9 @@
+{
+  "name": "tune_clef-flash_hemi_question",
+  "experiment": "orig_choice",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "clef-flash"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "g2_land_choice",
+  "experiment": "land_choice",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 100
+}

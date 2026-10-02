@@ -1,0 +1,8 @@
+{
+  "name": "p1_political_decimal_state_preview",
+  "experiment": "political",
+  "coord_style": "decimal",
+  "layout": "state",
+  "model": "jev-preview",
+  "batch": 25
+}

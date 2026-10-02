@@ -1,0 +1,238 @@
+<title>How Well Do Decision Models Know Geography?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* Layout: one text column (~68ch); figures and tables widen to 1100px. Model colours are fixed across every chart. */
+:root {
+  --bg: #fbfbfa;
+  --fg: #1b1d21;
+  --muted: #61666f;
+  --rule: #dcdee2;
+  --panel: #ffffff;
+  --track: #eceef1;
+  --claude: #a7abb3;
+  --heat: #2f6f4f;
+  --m-jev: #d0491c;
+  --m-clef: #1f56d6;
+  --m-flash: #5ea3f0;
+  --m-laya: #8a4fd8;
+  --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121417; --fg: #e4e6ea; --muted: #a0a5ae; --rule: #2c3036; --panel: #1a1d21; --track: #24282e;
+    --claude: #5d626b; --heat: #5fbf8c; --m-jev: #f07a4c; --m-clef: #6d95f5; --m-flash: #9cc8f7; --m-laya: #b38af0; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121417; --fg: #e4e6ea; --muted: #a0a5ae; --rule: #2c3036; --panel: #1a1d21; --track: #24282e;
+  --claude: #5d626b; --heat: #5fbf8c; --m-jev: #f07a4c; --m-clef: #6d95f5; --m-flash: #9cc8f7; --m-laya: #b38af0; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--serif); font-size: 1.075rem; line-height: 1.62; padding-inline: 16px; padding-block: 0 5rem; }
+main { display: grid; }
+main > * { width: 100%; max-width: 68ch; margin-inline: auto; }
+main > .wide { max-width: 1100px; }
+h1, h2, h3 { font-family: var(--sans); font-weight: 600; line-height: 1.15; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+h1 { font-size: clamp(2.1rem, 5vw, 3.1rem); }
+h2 { font-size: 1.6rem; margin-top: 3.4rem; }
+h3 { font-size: 1.15rem; margin-top: 2rem; }
+p { margin-block: 1rem 0; }
+a { color: var(--m-clef); }
+a:focus-visible { outline: 2px solid var(--m-jev); outline-offset: 2px; }
+code { font-family: var(--mono); font-size: 0.86em; }
+small, .note { font-family: var(--sans); font-size: 0.82rem; color: var(--muted); }
+.note { margin-top: 0.5rem; }
+header { padding-top: 3.5rem; }
+.byline { font-family: var(--sans); font-size: 0.9rem; color: var(--muted); margin-top: 0.9rem; }
+.sw { display: inline-block; width: 0.7rem; height: 0.7rem; border-radius: 2px; margin-right: 0.4rem; vertical-align: 0; }
+
+.tldr { margin-top: 2rem; padding: 1.1rem 1.3rem; background: var(--panel); border: 1px solid var(--rule); }
+.tldr h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0; }
+.tldr ul { margin: 0.6rem 0 0; padding-left: 1.1rem; }
+.tldr li + li { margin-top: 0.45rem; }
+ul { padding-left: 1.2rem; margin-block: 1rem 0; }
+li + li { margin-top: 0.35rem; }
+
+figure { margin: 1.4rem 0 0; min-width: 0; }
+figure img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid var(--rule); }
+figcaption { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); margin-top: 0.35rem; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 0.4rem 1.2rem; }
+.grid2 figure { margin-top: 1rem; }
+
+.tbl { overflow-x: auto; margin-top: 1.2rem; }
+table { border-collapse: collapse; width: 100%; font-family: var(--sans); font-size: 0.86rem; font-variant-numeric: tabular-nums; }
+th, td { padding: 0.42rem 0.55rem; text-align: left; border-bottom: 1px solid var(--rule); vertical-align: top; }
+thead th { font-weight: 600; color: var(--muted); border-bottom: 1px solid var(--fg); font-size: 0.78rem; }
+td + td, th + th { text-align: right; }
+tr.base td, tr.tot td { color: var(--muted); }
+tr.tot td { font-weight: 600; color: var(--fg); }
+.heat td { text-align: center; background: color-mix(in srgb, var(--heat) calc(var(--s) * 38%), transparent); }
+.heat td b { display: block; font-weight: 600; }
+.heat td small { font-size: 0.72rem; }
+.heat thead th { text-align: center; font-size: 0.74rem; min-width: 7.5rem; }
+.heat tbody th { white-space: nowrap; font-weight: 500; text-align: left; }
+
+.bars { margin-top: 1.3rem; display: grid; gap: 0.22rem; position: relative; }
+.bar { display: grid; grid-template-columns: 11rem 1fr 3.6rem; gap: 0.6rem; align-items: center; font-family: var(--sans); font-size: 0.86rem; }
+.bt { position: relative; height: 0.8rem; background: var(--track); }
+.bf { position: absolute; inset: 0 auto 0 0; background: var(--claude); }
+.bv { font-family: var(--mono); font-size: 0.8rem; text-align: right; }
+.bar.dm .bl, .bar.dm .bv { font-weight: 600; }
+.axis { display: grid; grid-template-columns: 11rem 1fr 3.6rem; gap: 0.6rem; font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
+.axis .sc { position: relative; height: 1.1rem; }
+.axis .sc span { position: absolute; transform: translateX(-50%); }
+.baseline { position: absolute; top: 0; bottom: 0; width: 0; border-left: 1.5px dashed var(--muted); }
+.basewrap { position: absolute; inset: 0 3.6rem 0 11.6rem; pointer-events: none; }
+.basewrap span { position: absolute; top: -1.3rem; transform: translateX(-50%); font-family: var(--sans); font-size: 0.72rem; color: var(--muted); white-space: nowrap; }
+
+.chart2 { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 1.5rem; align-items: start; margin-top: 1.2rem; }
+svg { width: 100%; height: auto; display: block; }
+svg .g { stroke: var(--rule); stroke-width: 1; }
+svg .diag { stroke: var(--muted); stroke-dasharray: 4 4; }
+svg .tk { fill: var(--muted); font-family: var(--mono); font-size: 10px; }
+svg .ax { fill: var(--fg); font-family: var(--sans); font-size: 12px; }
+svg .lbl { fill: var(--fg); font-family: var(--sans); font-size: 13px; }
+svg .conn { stroke: var(--muted); stroke-width: 1.5; }
+svg .hollow { fill: var(--bg); stroke-width: 2.5; }
+.legend { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; font-family: var(--sans); font-size: 0.82rem; color: var(--muted); margin-top: 0.6rem; }
+.legend i { display: inline-block; width: 0.75rem; height: 0.75rem; vertical-align: -0.1rem; margin-right: 0.3rem; border: 1px solid var(--rule); }
+.prompt { font-family: var(--mono); font-size: 0.82rem; background: var(--panel); border: 1px solid var(--rule); padding: 0.8rem 1rem; margin-top: 1rem; overflow-x: auto; white-space: pre-wrap; line-height: 1.5; }
+.stack { display: grid; gap: 0.5rem; margin-top: 1.2rem; }
+.stack svg { max-width: 640px; }
+footer { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-family: var(--sans); font-size: 0.82rem; color: var(--muted); }
+
+@media (max-width: 680px) {
+  .chart2 { grid-template-columns: minmax(0, 1fr); }
+  .bar, .axis { grid-template-columns: 7.5rem 1fr 3.2rem; }
+  .basewrap { inset: 0 3.2rem 0 8.1rem; }
+}
+</style>
+
+<main>
+<header>
+  <h1>How well do decision models know geography?</h1>
+  <p class="byline">October 2026 · Jev 1.13, Clef, Clef-flash, Laya · 16,200 points per map</p>
+</header>
+
+<p>Decision models answer typed questions instead of generating text: a yes/no question returns a probability, a multiple-choice question returns a probability for every option. Jev (TypeSafe), Clef and Clef-flash (Cloudflare) and Laya (open weights) all work this way.</p>
+<p>A popular eval for language models asks "Land or Water?" at every 2° of the globe and plots the answers as a map (<a href="https://outsidetext.substack.com/p/how-does-a-blind-model-see-the-earth">original post</a>; <a href="https://x.com/celestepoasts/status/2103232383139057950">results for 12 Claude models</a>). Decision models are a natural fit for it: the probability comes back directly. Jev maps have been <a href="https://x.com/arithmoquine/status/2103147890315325714">shown before</a>, without scores. This post scores four decision models on the same grid, with seven ways of asking, and checks what they know when given place names instead of coordinates.</p>
+
+<section class="tldr">
+  <h2>Summary</h2>
+  <ul>
+    <li><b>Land or water from coordinates:</b> Jev {{JEV_ACC}}, Clef {{CLEF_ACC}}, Clef-flash {{FLASH_ACC}}, Laya {{LAYA_ACC}}. Answering "water" everywhere scores {{WATER}}. Jev is between Opus 4.5 and Sonnet 4.6 on the Claude chart.</li>
+    <li><b>Names work better than numbers.</b> Given a city name, Jev and Clef name the continent 98–99% of the time. Given a coordinate, they get the continent right {{JEV_CONT}} (Jev) and {{CLEF_CONT}} (Clef) of the time.</li>
+    <li><b>Laya has almost no geography</b>, from coordinates or from names.</li>
+    <li><b>Jev ranks best but its calibration depends on the question:</b> {{JEV_RANGE}} at a 0.5 cutoff across seven question types. Clef stays at {{CLEF_RANGE}}.</li>
+    <li><b>Countries:</b> Jev {{JEV_POL}}, Clef {{CLEF_POL}}, Clef-flash {{FLASH_POL}} of land points. Keeping Jev's most confident half gives {{JEV_POL50}}.</li>
+    <li><b>Jev is not deterministic:</b> {{JEV_DET_FLIPS}} answers changed when the same requests were sent twice. Clef returned identical results.</li>
+  </ul>
+</section>
+
+<h2>Setup</h2>
+<p>Every model got the same 16,200 points (cell centres of a 2° grid) and the same questions. The coordinate is written as <code>35°S, 175°W</code>; this format beat signed decimals in a tuning run on a 10° grid. Up to 64 points go into one request, each as its own question; questions in a request are answered independently. The alternative is one point per request, with the coordinate as the whole state. Jev does equally well either way; both Clef models do better with one point per request. Results below use each model's better setting: Jev with the coordinate in the question, Clef and Clef-flash with the coordinate as the state. The one exception is the seven-ways table, where every model has the coordinate in the question.</p>
+<div class="prompt">state:     "Locations on the surface of the Earth, given as latitude and longitude."
+question:  choice  "If this location is over land, say 'Land'. If this location is over water,
+                    say 'Water'. 35°S, 175°W"     options: Land, Water</div>
+<p>Ground truth: the 1-km GLOBE land mask, ETOPO1 elevation, Natural Earth 1:50m countries. Accuracy is weighted by cos(latitude), as in the Claude chart. Laya ran on a Modal L4 GPU through its Python package; the others through their hosted APIs.</p>
+
+<h2>Land or water</h2>
+<figure class="wide"><img src="img/bench_sheet.png" alt="Land and water maps from four decision models next to the truth" width="1843" height="830"><figcaption>White = the model's P(Land) ≥ 0.5. Laya's panel is all white: it calls every point land.</figcaption></figure>
+
+<section class="wide">
+  <div class="bars">
+    <div class="basewrap"><span style="left:{{BASE_X}}%">all "water" = {{WATER}}</span><div class="baseline" style="left:{{BASE_X}}%"></div></div>
+    {{BARS}}
+  </div>
+  <div class="axis" aria-hidden="true"><span></span><div class="sc">{{BAR_TICKS}}</div><span></span></div>
+  <p class="note">Land/water accuracy at 2°, area-weighted. Grey: Claude models, read from the published chart. Coloured: decision models, same prompt and grid, each in its better setting.</p>
+</section>
+
+<p>Accuracy at a fixed cutoff mixes two things: whether a model ranks land above water, and whether its probabilities are centred. AUC measures the ranking alone (0.5 = no signal, 1 = perfect): Jev {{JEV_AUC}}, Clef {{CLEF_AUC}}, Clef-flash {{FLASH_AUC}}, Laya {{LAYA_AUC}}.</p>
+
+<section class="wide">
+  <div class="grid2">{{PROB_FIGS}}</div>
+  <p class="note">P(Land) at every point. White = land, black = water, grey = unsure.</p>
+</section>
+<p>Jev's map has the clearest continents. Clef and Clef-flash find the large landmasses but blur them, with vertical streaks where single longitudes shift up or down. Both Clef maps show a faint X through 0°N 0°E, along the points where latitude and longitude have the same value; Jev shows the same X on a 1° grid. Laya returns about the same probability everywhere.</p>
+<h3>Where the coordinate goes</h3>
+<div class="tbl"><table><thead><tr><th>“Land or Water?”</th><th>In question: accuracy</th><th>AUC</th><th>ECE</th><th>As state: accuracy</th><th>AUC</th><th>ECE</th></tr></thead><tbody>{{LAY_ROWS}}</tbody></table></div>
+<p>Clef-flash moves from {{FLASH_Q_ACC}} to {{FLASH_ACC}}. Prompt format matters more for the Clef models than for Jev.</p>
+<h3>Mirror images</h3>
+<p>Clef-flash's map looks symmetric around the Greenwich meridian: land patches at 100°W and at 100°E. One way to measure this: correlate each map with its own mirror image. A model that ignores the E/W or N/S letter would score high.</p>
+<div class="tbl"><table><thead><tr><th>Correlation with own mirror image</th><th>East–west</th><th>North–south</th></tr></thead><tbody>{{MIR_ROWS}}</tbody></table></div>
+<p>All three maps are more symmetric than the real world. Clef-flash is close to symmetric north–south as well. This matches the names test below, where Clef-flash gets "east of Greenwich" right only 76% of the time.</p>
+
+<h2>Seven ways to ask</h2>
+<p>Every Choice answer includes a probability for each option, so P(land) can be read from questions that are not about land: add up the land options. Each model got all seven.</p>
+<section class="wide">
+  <div class="tbl"><table class="heat"><thead><tr><th></th>{{SRC_HEAD}}</tr></thead><tbody>{{QT_ROWS}}</tbody></table></div>
+  <p class="note">Accuracy at P(land) ≥ 0.5 and AUC, coordinate in the question for every model. Shading starts at the all-water baseline ({{WATER}}).</p>
+</section>
+<p>Jev's ranking (AUC) barely moves between questions; its accuracy at 0.5 does, from {{JEV_RANGE}}. The yes/no phrasings lean towards land and need a cutoff near 0.7. The terrain question is best calibrated and gives Jev's best land map. Clef's accuracy stays within {{CLEF_RANGE}} for every question.</p>
+
+<h3>Calibration</h3>
+<section class="wide"><div class="chart2">
+  {{CAL_SVG}}
+  <div class="tbl" style="margin-top:0"><table><thead><tr><th>“Land or Water?”</th><th>ECE</th><th>Brier</th><th>Best cutoff</th><th>Accuracy there</th></tr></thead><tbody>{{CAL_ROWS}}</tbody></table>
+  <p class="note">Dashed line: perfect calibration. ECE: expected calibration error, 10 bins, area-weighted. Lower is better for ECE and Brier.</p></div>
+</div></section>
+<p>Clef and Clef-flash are the best calibrated on this question. Jev's curve sits below the diagonal in the middle range: when it says 0.6, the point is land less than half the time.</p>
+
+<h2>Names, not numbers</h2>
+<p>A wrong map can mean the model lacks the knowledge, or that it cannot read the coordinate. To separate the two, the same models got the 500 largest cities in Natural Earth by name (state: <code>Lagos</code>), and every country, with five questions: continent, northern hemisphere, east of Greenwich, and which of six latitude and six longitude bands.</p>
+<section class="wide">
+  <div class="stack">
+    {{DUMB_SVG}}
+    <p class="note" style="margin:0">Continent accuracy from a city name (filled) and from a coordinate on land (hollow).</p>
+    <div class="tbl"><table><thead><tr><th></th><th>City → continent</th><th>Country → continent</th><th>North?</th><th>East of Greenwich?</th><th>Latitude band</th><th>Longitude band</th></tr></thead><tbody>{{NAMES_ROWS}}</tbody></table></div>
+  </div>
+</section>
+<p>Jev and Clef know where cities are. They name the continent of {{JEV_NAME_CONT}} and {{CLEF_NAME_CONT}} of cities and place most in the right latitude band. The weak step is reading a coordinate, and it costs Clef more than Jev: 98% by name, {{CLEF_CONT}} by coordinate. Jev has one gap by name: east or west of Greenwich, {{JEV_EAST}} (Clef {{CLEF_EAST}}).</p>
+<p>Laya's typed-decisions and English checkpoints are at or below the most-common-answer baseline on every task. The multilingual checkpoint gets continents right 61–68% of the time (baseline 47%) and nothing else. The encoders (322–421M parameters) are trained to classify text, and hold little knowledge about the world.</p>
+<p>To rule out a setup error, Laya also got its own README example and questions whose answer is in the text. All three checkpoints route the README's double-billing ticket to "billing" (0.81–1.00). "The point is in the Sahara desert, in southern Algeria" comes back as land in Africa; "…in the middle of the Pacific Ocean…" as water; "Our office is in Lima, Peru" as South America. Laya reads the text correctly. It cannot supply facts the text does not contain.</p>
+
+<h2>Continents</h2>
+<p>"Which continent or ocean is this location in?", with seven continents and five oceans as options.</p>
+<section class="wide"><div class="grid2">{{CONT_FIGS}}</div></section>
+<div class="tbl"><table><thead><tr><th>Right continent</th><th>Jev</th><th>Clef</th><th>Clef-flash</th><th>Laya</th></tr></thead><tbody>{{CONT_ROWS}}</tbody></table></div>
+<p>All three draw continents as blocks. Clef-flash gains the most from one point per request: {{FLASH_CONT_Q}} with the coordinate in the question, {{FLASH_CONT}} as the state. Part of that comes from oversized continents that also cover much of the ocean; Clef is the opposite, cautious on land and right about the ocean 90% of the time. Laya answers "Pacific Ocean", "Oceania" or "Atlantic Ocean" regardless of the coordinate.</p>
+
+<h2>Countries</h2>
+<p>One Choice over all 242 Natural Earth countries and territories plus "Ocean". Not run on Laya: its question budget truncates options beyond about 20.</p>
+<section class="wide"><div class="grid2">{{POL_FIGS}}</div><p class="note">Answers drawn on true land points only.</p></section>
+<section class="wide"><div class="chart2">
+  {{CC_SVG}}
+  <div class="tbl" style="margin-top:0"><table><thead><tr><th></th><th>Right country</th><th>In top 3</th><th>Most confident 50%</th><th>Ocean called ocean</th><th>Countries never chosen</th></tr></thead><tbody>{{POL_ROWS}}</tbody></table>
+  <p class="note">Left: accuracy when only the most confident answers are kept.</p></div>
+</div></section>
+<p>All three rank their own answers usefully: accuracy rises as low-confidence answers are dropped. Jev's confidence separates much better. Its most confident half is {{JEV_POL50}} right, Clef's {{CLEF_POL50}}. Clef's confidence values run much lower (median {{CLEF_CONF_MED}} against Jev's {{JEV_CONF_MED}}), so a cutoff tuned on Jev does not transfer. On open sea, Jev usually names the nearest coastal country; Clef answers "Ocean" more often ({{CLEF_OCEAN}} against {{JEV_OCEAN}}). Some countries are never the answer at any point, even when they are often second or third: 27 for Jev, including Mali and Chad.</p>
+<div class="tbl"><table><thead><tr><th>Right country, by country</th><th>Jev</th><th>Clef</th><th>Clef-flash</th></tr></thead><tbody>{{CN_ROWS}}</tbody></table></div>
+
+<h2>Physical map</h2>
+<p>Eight elevation and depth bands, asked two ways: by terrain ("Mountains: land 1,500 to 3,000 m") and by the colour a physical atlas uses ("brown").</p>
+<section class="wide"><div class="grid2">{{PHYS_FIGS}}</div>
+<div class="legend"><span><i style="background:#1f4e79"></i>deep ocean</span><span><i style="background:#3a7dc0"></i>ocean</span><span><i style="background:#9cc9eb"></i>shallow sea</span><span><i style="background:#3f8f4f"></i>lowland</span><span><i style="background:#a6cf7a"></i>hills</span><span><i style="background:#f0e08a"></i>upland</span><span><i style="background:#b07a43"></i>mountains</span><span><i style="background:#6b3f22"></i>high mountains</span></div>
+<p class="note">Atlas-colour version.</p></section>
+<div class="tbl"><table><thead><tr><th></th><th>Terrain: exact</th><th>within one band</th><th>Colour: exact</th><th>within one band</th></tr></thead><tbody>{{PHYS_ROWS}}</tbody></table></div>
+<p>Exact bands are hard for every model. Clef gets the most exact terrain bands ({{CLEF_TERR}}); Jev is closest within one band ({{JEV_TERR_W1}}) and places the Himalaya, Andes and Rockies.</p>
+
+<h2>Cost, speed, determinism</h2>
+<div class="tbl"><table><thead><tr><th></th><th>Access</th><th>$ / M input tokens</th><th>Tokens per question</th><th>One 2° map</th><th>Latency</th><th>Changed on repeat (mean |Δp|)</th></tr></thead><tbody>{{PRAC_ROWS}}</tbody></table></div>
+<p>The country question costs the most: 243 options in every question. One 2° country map cost $1.33 on Jev and $14.62 on each Clef model, whose tokenizer counts the option list at twice the tokens. Repeat runs used the 648 points of the 10° grid; Jev's largest change was {{JEV_DET_MAX}}.</p>
+
+<h2>Method notes</h2>
+<ul>
+  <li>The land mask counts large lakes (Caspian Sea, Lake Victoria) as land.</li>
+  <li>Coordinate format was chosen on Jev and then checked on Clef and Clef-flash on the 10° grid: the same format wins for both. Where the coordinate goes does differ by model, and each section uses each model's better setting.</li>
+  <li>Claude scores are read from the published chart; that eval read P(Land) from token log-probabilities.</li>
+  <li>Laya was also run with the coordinate as the state instead of in the question. Results were the same: no signal.</li>
+  <li>OpenAI has announced a decision API but has not published it, so it is not included.</li>
+</ul>
+
+<footer>Code, raw answers and journal: <a href="https://github.com/move38studios/decision-map-bench">github.com/move38studios/decision-map-bench</a>. Total API spend for the study: {{COST_TOTAL}}.</footer>
+</main>

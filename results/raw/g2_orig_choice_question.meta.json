@@ -1,0 +1,8 @@
+{
+  "name": "g2_orig_choice_question",
+  "experiment": "orig_choice",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 100
+}

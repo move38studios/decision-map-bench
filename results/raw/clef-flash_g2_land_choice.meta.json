@@ -1,0 +1,9 @@
+{
+  "name": "clef-flash_g2_land_choice",
+  "experiment": "land_choice",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "clef-flash"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tune_clef_decimal_state",
+  "experiment": "orig_choice",
+  "coord_style": "decimal",
+  "layout": "state",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "clef"
+}

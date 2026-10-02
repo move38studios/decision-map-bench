@@ -1,0 +1,8 @@
+{
+  "name": "p1_physical_terrain_hemi_question_preview",
+  "experiment": "physical_terrain",
+  "coord_style": "hemi",
+  "layout": "question",
+  "model": "jev-preview",
+  "batch": 100
+}

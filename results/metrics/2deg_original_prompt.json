@@ -1,0 +1,54 @@
+{
+  "g2_orig_choice_state": {
+    "accuracy_0.5": 0.8334396754466772,
+    "accuracy_0.7": 0.856752650079059,
+    "best_threshold": 0.63,
+    "best_threshold_accuracy": 0.8604960706559484,
+    "antarctica_mean_p": 0.6391888888888889,
+    "usage": {
+      "requests": 16200,
+      "input_tokens": 5091300,
+      "cost_usd": 0.21383460000000004,
+      "seconds": 3947.1894639823586
+    }
+  },
+  "g2_orig_choice_question": {
+    "accuracy_0.5": 0.8414363294253816,
+    "accuracy_0.7": 0.8585294767297624,
+    "best_threshold": 0.67,
+    "best_threshold_accuracy": 0.8589681333231891,
+    "antarctica_mean_p": 0.599538888888889,
+    "usage": {
+      "requests": 162,
+      "input_tokens": 955926,
+      "cost_usd": 0.040148892000000005,
+      "seconds": 53.3073710387107
+    }
+  },
+  "g2_orig_noul_state": {
+    "accuracy_0.5": 0.788958615260445,
+    "accuracy_0.7": 0.8519363634987239,
+    "best_threshold": 0.71,
+    "best_threshold_accuracy": 0.8534331656807924,
+    "antarctica_mean_p": 0.5023555555555556,
+    "usage": {
+      "requests": 16200,
+      "input_tokens": 4572900,
+      "cost_usd": 0.1920618,
+      "seconds": 3899.266802306287
+    }
+  },
+  "g2_orig_noul_question": {
+    "accuracy_0.5": 0.7981984115764501,
+    "accuracy_0.7": 0.8538279093745834,
+    "best_threshold": 0.7,
+    "best_threshold_accuracy": 0.8544951104774104,
+    "antarctica_mean_p": 0.34226111111111107,
+    "usage": {
+      "requests": 162,
+      "input_tokens": 437526,
+      "cost_usd": 0.018376092000000004,
+      "seconds": 44.33513467060402
+    }
+  }
+}

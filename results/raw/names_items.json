@@ -1,0 +1,6671 @@
+{
+ "cities": [
+  {
+   "id": "city:Tokyo",
+   "state": "Tokyo",
+   "lat": 35.686963,
+   "lon": 139.749462,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Mexico City",
+   "state": "Mexico City",
+   "lat": 19.444388,
+   "lon": -99.132934,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Mumbai",
+   "state": "Mumbai",
+   "lat": 19.018936,
+   "lon": 72.855043,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:São Paulo",
+   "state": "São Paulo",
+   "lat": -23.556734,
+   "lon": -46.626966,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Delhi",
+   "state": "Delhi",
+   "lat": 28.671939,
+   "lon": 77.228058,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Shanghai",
+   "state": "Shanghai",
+   "lat": 31.218398,
+   "lon": 121.434559,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Kolkata",
+   "state": "Kolkata",
+   "lat": 22.496915,
+   "lon": 88.32273,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Dhaka",
+   "state": "Dhaka",
+   "lat": 23.725006,
+   "lon": 90.406634,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Buenos Aires",
+   "state": "Buenos Aires",
+   "lat": -34.600556,
+   "lon": -58.399477,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Los Angeles",
+   "state": "Los Angeles",
+   "lat": 33.991924,
+   "lon": -118.181926,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Karachi",
+   "state": "Karachi",
+   "lat": 24.871938,
+   "lon": 66.988063,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Cairo",
+   "state": "Cairo",
+   "lat": 30.051906,
+   "lon": 31.248022,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Rio de Janeiro",
+   "state": "Rio de Janeiro",
+   "lat": -22.923077,
+   "lon": -43.226967,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Ōsaka",
+   "state": "Ōsaka",
+   "lat": 34.751981,
+   "lon": 135.458199,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Beijing",
+   "state": "Beijing",
+   "lat": 39.930838,
+   "lon": 116.38634,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Manila",
+   "state": "Manila",
+   "lat": 14.606105,
+   "lon": 120.980271,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Moscow",
+   "state": "Moscow",
+   "lat": 55.75411,
+   "lon": 37.613577,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Istanbul",
+   "state": "Istanbul",
+   "lat": 41.106942,
+   "lon": 29.008056,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Paris",
+   "state": "Paris",
+   "lat": 48.868639,
+   "lon": 2.33139,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Seoul",
+   "state": "Seoul",
+   "lat": 37.568295,
+   "lon": 126.997785,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Jakarta",
+   "state": "Jakarta",
+   "lat": -6.172472,
+   "lon": 106.827492,
+   "continent": "Asia",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Chicago",
+   "state": "Chicago",
+   "lat": 41.831937,
+   "lon": -87.752001,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Guangzhou",
+   "state": "Guangzhou",
+   "lat": 23.146927,
+   "lon": 113.323064,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:London",
+   "state": "London",
+   "lat": 51.501941,
+   "lon": -0.118668,
+   "continent": "Europe",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Lima",
+   "state": "Lima",
+   "lat": -12.046067,
+   "lon": -77.052008,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Tehran",
+   "state": "Tehran",
+   "lat": 35.673889,
+   "lon": 51.422398,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Kinshasa",
+   "state": "Kinshasa",
+   "lat": -4.327778,
+   "lon": 15.313026,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Bogota",
+   "state": "Bogota",
+   "lat": 4.598369,
+   "lon": -74.08529,
+   "continent": "South America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Shenzhen",
+   "state": "Shenzhen",
+   "lat": 22.554316,
+   "lon": 114.120177,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Wuhan",
+   "state": "Wuhan",
+   "lat": 30.581977,
+   "lon": 114.268071,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Tianjin",
+   "state": "Tianjin",
+   "lat": 39.131972,
+   "lon": 117.198073,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Chennai",
+   "state": "Chennai",
+   "lat": 13.091934,
+   "lon": 80.278053,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Taipei",
+   "state": "Taipei",
+   "lat": 25.035833,
+   "lon": 121.568333,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Bengaluru",
+   "state": "Bengaluru",
+   "lat": 12.971941,
+   "lon": 77.558064,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Bangkok",
+   "state": "Bangkok",
+   "lat": 13.751945,
+   "lon": 100.514699,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Lahore",
+   "state": "Lahore",
+   "lat": 31.561917,
+   "lon": 74.348079,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Chongqing",
+   "state": "Chongqing",
+   "lat": 29.566923,
+   "lon": 106.593036,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Hyderabad",
+   "state": "Hyderabad",
+   "lat": 17.401929,
+   "lon": 78.478008,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Amaravati",
+   "state": "Amaravati",
+   "lat": 16.533658,
+   "lon": 80.52432,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Santiago",
+   "state": "Santiago",
+   "lat": -33.448068,
+   "lon": -70.668987,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Miami",
+   "state": "Miami",
+   "lat": 25.789557,
+   "lon": -80.226052,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Belo Horizonte",
+   "state": "Belo Horizonte",
+   "lat": -19.91308,
+   "lon": -43.91695,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Madrid",
+   "state": "Madrid",
+   "lat": 40.401972,
+   "lon": -3.685298,
+   "continent": "Europe",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Philadelphia",
+   "state": "Philadelphia",
+   "lat": 40.001919,
+   "lon": -75.171942,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Ahmedabad",
+   "state": "Ahmedabad",
+   "lat": 23.031999,
+   "lon": 72.578058,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Ho Chi Minh City",
+   "state": "Ho Chi Minh City",
+   "lat": 10.781971,
+   "lon": 106.693081,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Toronto",
+   "state": "Toronto",
+   "lat": 43.701926,
+   "lon": -79.421967,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Singapore",
+   "state": "Singapore",
+   "lat": 1.294979,
+   "lon": 103.853875,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Luanda",
+   "state": "Luanda",
+   "lat": -8.83634,
+   "lon": 13.232481,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Baghdad",
+   "state": "Baghdad",
+   "lat": 33.340594,
+   "lon": 44.391923,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Barcelona",
+   "state": "Barcelona",
+   "lat": 41.385245,
+   "lon": 2.181425,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Dallas",
+   "state": "Dallas",
+   "lat": 32.82197,
+   "lon": -96.841963,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Shenyeng",
+   "state": "Shenyeng",
+   "lat": 41.806925,
+   "lon": 123.448028,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Khartoum",
+   "state": "Khartoum",
+   "lat": 15.590024,
+   "lon": 32.532233,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Pune",
+   "state": "Pune",
+   "lat": 18.531963,
+   "lon": 73.848058,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Sydney",
+   "state": "Sydney",
+   "lat": -33.918065,
+   "lon": 151.183234,
+   "continent": "Oceania",
+   "north": false,
+   "east": true,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:St.  Petersburg",
+   "state": "St.  Petersburg",
+   "lat": 59.94096,
+   "lon": 30.314074,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Chattogram",
+   "state": "Chattogram",
+   "lat": 22.331938,
+   "lon": 91.798022,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Dongguan",
+   "state": "Dongguan",
+   "lat": 23.050835,
+   "lon": 113.742776,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Atlanta",
+   "state": "Atlanta",
+   "lat": 33.83196,
+   "lon": -84.401895,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Boston",
+   "state": "Boston",
+   "lat": 42.331906,
+   "lon": -71.07196,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Riyadh",
+   "state": "Riyadh",
+   "lat": 24.642779,
+   "lon": 46.770796,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Houston",
+   "state": "Houston",
+   "lat": 29.82192,
+   "lon": -95.341925,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Hanoi",
+   "state": "Hanoi",
+   "lat": 21.035273,
+   "lon": 105.848068,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Washington,  D.C.",
+   "state": "Washington,  D.C.",
+   "lat": 38.901495,
+   "lon": -77.011364,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Guadalajara",
+   "state": "Guadalajara",
+   "lat": 20.671962,
+   "lon": -103.33198,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Melbourne",
+   "state": "Melbourne",
+   "lat": -37.818086,
+   "lon": 144.97307,
+   "continent": "Oceania",
+   "north": false,
+   "east": true,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Alexandria",
+   "state": "Alexandria",
+   "lat": 31.201965,
+   "lon": 29.94805,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Chengdu",
+   "state": "Chengdu",
+   "lat": 30.671946,
+   "lon": 104.068074,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Detroit",
+   "state": "Detroit",
+   "lat": 42.331906,
+   "lon": -83.082002,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Yangon",
+   "state": "Yangon",
+   "lat": 16.7853,
+   "lon": 96.164732,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Xian",
+   "state": "Xian",
+   "lat": 34.276971,
+   "lon": 108.89305,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Porto Alegre",
+   "state": "Porto Alegre",
+   "lat": -30.048069,
+   "lon": -51.201958,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Surat",
+   "state": "Surat",
+   "lat": 21.20193,
+   "lon": 72.838094,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Abidjan",
+   "state": "Abidjan",
+   "lat": 5.321943,
+   "lon": -4.041994,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Brasília",
+   "state": "Brasília",
+   "lat": -15.781394,
+   "lon": -47.917998,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Ankara",
+   "state": "Ankara",
+   "lat": 39.929184,
+   "lon": 32.862446,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Monterrey",
+   "state": "Monterrey",
+   "lat": 25.671941,
+   "lon": -100.331931,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Nanjing",
+   "state": "Nanjing",
+   "lat": 32.051965,
+   "lon": 118.778029,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Montréal",
+   "state": "Montréal",
+   "lat": 45.501945,
+   "lon": -73.585243,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Guiyang",
+   "state": "Guiyang",
+   "lat": 26.581989,
+   "lon": 106.718093,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Recife",
+   "state": "Recife",
+   "lat": -8.0737,
+   "lon": -34.917551,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Harbin",
+   "state": "Harbin",
+   "lat": 45.75193,
+   "lon": 126.648039,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Fortaleza",
+   "state": "Fortaleza",
+   "lat": -3.748072,
+   "lon": -38.581927,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Ürümqi",
+   "state": "Ürümqi",
+   "lat": 43.806958,
+   "lon": 87.57306,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Phoenix",
+   "state": "Phoenix",
+   "lat": 33.541926,
+   "lon": -112.071938,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:San Francisco",
+   "state": "San Francisco",
+   "lat": 37.769196,
+   "lon": -122.417169,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "180°W to 120°W"
+  },
+  {
+   "id": "city:Johannesburg",
+   "state": "Johannesburg",
+   "lat": -26.168099,
+   "lon": 28.028064,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Berlin",
+   "state": "Berlin",
+   "lat": 52.523765,
+   "lon": 13.399603,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Algiers",
+   "state": "Algiers",
+   "lat": 36.765011,
+   "lon": 3.048607,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Rome",
+   "state": "Rome",
+   "lat": 41.897902,
+   "lon": 12.481313,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Pyongyang",
+   "state": "Pyongyang",
+   "lat": 39.021385,
+   "lon": 125.752745,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Medellín",
+   "state": "Medellín",
+   "lat": 6.276949,
+   "lon": -75.576956,
+   "continent": "South America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Kabul",
+   "state": "Kabul",
+   "lat": 34.518636,
+   "lon": 69.181314,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Athens",
+   "state": "Athens",
+   "lat": 37.985272,
+   "lon": 23.731375,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Nagoya",
+   "state": "Nagoya",
+   "lat": 35.156943,
+   "lon": 136.913046,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Cape Town",
+   "state": "Cape Town",
+   "lat": -33.918065,
+   "lon": 18.433042,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Changchun",
+   "state": "Changchun",
+   "lat": 43.866954,
+   "lon": 125.338042,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Casablanca",
+   "state": "Casablanca",
+   "lat": 33.601922,
+   "lon": -7.618313,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Dalian",
+   "state": "Dalian",
+   "lat": 38.924784,
+   "lon": 121.627885,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Kanpur",
+   "state": "Kanpur",
+   "lat": 26.461945,
+   "lon": 80.31805,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Kano",
+   "state": "Kano",
+   "lat": 12.001923,
+   "lon": 8.518092,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Tel Aviv",
+   "state": "Tel Aviv",
+   "lat": 32.081937,
+   "lon": 34.768066,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Addis Ababa",
+   "state": "Addis Ababa",
+   "lat": 9.035256,
+   "lon": 38.698059,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Curitiba",
+   "state": "Curitiba",
+   "lat": -25.418067,
+   "lon": -49.321944,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Seattle",
+   "state": "Seattle",
+   "lat": 47.571948,
+   "lon": -122.341931,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "180°W to 120°W"
+  },
+  {
+   "id": "city:Zibo",
+   "state": "Zibo",
+   "lat": 36.801934,
+   "lon": 118.048047,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Jeddah",
+   "state": "Jeddah",
+   "lat": 21.518835,
+   "lon": 39.217252,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Nairobi",
+   "state": "Nairobi",
+   "lat": -1.281401,
+   "lon": 36.814711,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Hangzhou",
+   "state": "Hangzhou",
+   "lat": 30.25192,
+   "lon": 120.168073,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Caracas",
+   "state": "Caracas",
+   "lat": 10.502944,
+   "lon": -66.918983,
+   "continent": "South America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Milan",
+   "state": "Milan",
+   "lat": 45.471921,
+   "lon": 9.203063,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Kunming",
+   "state": "Kunming",
+   "lat": 25.071926,
+   "lon": 102.678029,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Dar es Salaam",
+   "state": "Dar es Salaam",
+   "lat": -6.798067,
+   "lon": 39.266396,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Jaipur",
+   "state": "Jaipur",
+   "lat": 26.923079,
+   "lon": 75.808042,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:San Diego",
+   "state": "San Diego",
+   "lat": 32.82197,
+   "lon": -117.181936,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Taiyuan",
+   "state": "Taiyuan",
+   "lat": 37.876958,
+   "lon": 112.543112,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Frankfurt",
+   "state": "Frankfurt",
+   "lat": 50.099977,
+   "lon": 8.675015,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Jinan",
+   "state": "Jinan",
+   "lat": 36.676928,
+   "lon": 116.993073,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Fukuoka",
+   "state": "Fukuoka",
+   "lat": 33.596961,
+   "lon": 130.408068,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Campinas",
+   "state": "Campinas",
+   "lat": -22.898066,
+   "lon": -47.101976,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Aleppo",
+   "state": "Aleppo",
+   "lat": 36.231917,
+   "lon": 37.168074,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Durban",
+   "state": "Durban",
+   "lat": -29.863067,
+   "lon": 30.978065,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Kyiv",
+   "state": "Kyiv",
+   "lat": 50.435313,
+   "lon": 30.514682,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Lucknow",
+   "state": "Lucknow",
+   "lat": 26.856985,
+   "lon": 80.913053,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Zhengzhou",
+   "state": "Zhengzhou",
+   "lat": 34.756942,
+   "lon": 113.663147,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Taichung",
+   "state": "Taichung",
+   "lat": 24.152078,
+   "lon": 120.681667,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Ibadan",
+   "state": "Ibadan",
+   "lat": 7.381972,
+   "lon": 3.928036,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Minneapolis",
+   "state": "Minneapolis",
+   "lat": 44.981925,
+   "lon": -93.253732,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Fuzhou",
+   "state": "Fuzhou",
+   "lat": 26.081942,
+   "lon": 119.2981,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Changsha",
+   "state": "Changsha",
+   "lat": 28.201916,
+   "lon": 112.968047,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Dakar",
+   "state": "Dakar",
+   "lat": 14.717778,
+   "lon": -17.475076,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:İzmir",
+   "state": "İzmir",
+   "lat": 38.438096,
+   "lon": 27.149848,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Lanzhou",
+   "state": "Lanzhou",
+   "lat": 36.057974,
+   "lon": 103.790054,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Sapporo",
+   "state": "Sapporo",
+   "lat": 43.076925,
+   "lon": 141.338099,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Guayaquil",
+   "state": "Guayaquil",
+   "lat": -2.218088,
+   "lon": -79.921988,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:George Town",
+   "state": "George Town",
+   "lat": 5.413613,
+   "lon": 100.329368,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:San Juan",
+   "state": "San Juan",
+   "lat": 18.440023,
+   "lon": -66.129979,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Mashhad",
+   "state": "Mashhad",
+   "lat": 36.271966,
+   "lon": 59.568051,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Damascus",
+   "state": "Damascus",
+   "lat": 33.50198,
+   "lon": 36.29805,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Nagpur",
+   "state": "Nagpur",
+   "lat": 21.171906,
+   "lon": 79.088048,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Jinxi",
+   "state": "Jinxi",
+   "lat": 40.752287,
+   "lon": 120.828033,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Shijiazhuang",
+   "state": "Shijiazhuang",
+   "lat": 38.051961,
+   "lon": 114.478033,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Tunis",
+   "state": "Tunis",
+   "lat": 36.802778,
+   "lon": 10.179678,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Vienna",
+   "state": "Vienna",
+   "lat": 48.201961,
+   "lon": 16.364693,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Jilin",
+   "state": "Jilin",
+   "lat": 43.851917,
+   "lon": 126.548097,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Omdurman",
+   "state": "Omdurman",
+   "lat": 15.616681,
+   "lon": 32.480022,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Bandung",
+   "state": "Bandung",
+   "lat": -6.948083,
+   "lon": 107.568067,
+   "continent": "Asia",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Wenzhou",
+   "state": "Wenzhou",
+   "lat": 28.021927,
+   "lon": 120.648147,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Nanchang",
+   "state": "Nanchang",
+   "lat": 28.681938,
+   "lon": 115.87805,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Tampa",
+   "state": "Tampa",
+   "lat": 27.948934,
+   "lon": -82.460567,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Vancouver",
+   "state": "Vancouver",
+   "lat": 49.275362,
+   "lon": -123.12359,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "180°W to 120°W"
+  },
+  {
+   "id": "city:Denver",
+   "state": "Denver",
+   "lat": 39.741134,
+   "lon": -104.985962,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Birmingham",
+   "state": "Birmingham",
+   "lat": 52.47692,
+   "lon": -1.921943,
+   "continent": "Europe",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Baltimore",
+   "state": "Baltimore",
+   "lat": 39.301936,
+   "lon": -76.621931,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Cali",
+   "state": "Cali",
+   "lat": 3.401905,
+   "lon": -76.501912,
+   "continent": "South America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Sendai",
+   "state": "Sendai",
+   "lat": 38.289052,
+   "lon": 141.019772,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Naples",
+   "state": "Naples",
+   "lat": 40.841971,
+   "lon": 14.243066,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Manchester",
+   "state": "Manchester",
+   "lat": 53.502361,
+   "lon": -2.249933,
+   "continent": "Europe",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:St. Louis",
+   "state": "St. Louis",
+   "lat": 38.636964,
+   "lon": -90.241926,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Puebla",
+   "state": "Puebla",
+   "lat": 19.051906,
+   "lon": -98.201983,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Tripoli",
+   "state": "Tripoli",
+   "lat": 32.8925,
+   "lon": 13.180012,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Tashkent",
+   "state": "Tashkent",
+   "lat": 41.313648,
+   "lon": 69.292987,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Nanchong",
+   "state": "Nanchong",
+   "lat": 30.782378,
+   "lon": 106.128051,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Havana",
+   "state": "Havana",
+   "lat": 23.133905,
+   "lon": -82.366128,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Nanning",
+   "state": "Nanning",
+   "lat": 22.821934,
+   "lon": 108.318099,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Patna",
+   "state": "Patna",
+   "lat": 25.626905,
+   "lon": 85.128093,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Santo Domingo",
+   "state": "Santo Domingo",
+   "lat": 18.472019,
+   "lon": -69.902031,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Zaozhuang",
+   "state": "Zaozhuang",
+   "lat": 34.881947,
+   "lon": 117.568077,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Baku",
+   "state": "Baku",
+   "lat": 40.397218,
+   "lon": 49.860271,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Accra",
+   "state": "Accra",
+   "lat": 5.551981,
+   "lon": -0.218662,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Yantai",
+   "state": "Yantai",
+   "lat": 37.532354,
+   "lon": 121.398075,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Medan",
+   "state": "Medan",
+   "lat": 3.58192,
+   "lon": 98.648094,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Santa Cruz",
+   "state": "Santa Cruz",
+   "lat": -17.751972,
+   "lon": -63.227942,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Xuzhou",
+   "state": "Xuzhou",
+   "lat": 34.281958,
+   "lon": 117.178074,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Linyi",
+   "state": "Linyi",
+   "lat": 35.081935,
+   "lon": 118.32803,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Maracaibo",
+   "state": "Maracaibo",
+   "lat": 10.731923,
+   "lon": -71.661924,
+   "continent": "South America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Kuwait City",
+   "state": "Kuwait City",
+   "lat": 29.371664,
+   "lon": 47.976355,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Hiroshima",
+   "state": "Hiroshima",
+   "lat": 34.389781,
+   "lon": 132.440967,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Baotou",
+   "state": "Baotou",
+   "lat": 40.654153,
+   "lon": 109.820074,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Hefei",
+   "state": "Hefei",
+   "lat": 31.851977,
+   "lon": 117.278068,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Indore",
+   "state": "Indore",
+   "lat": 22.717005,
+   "lon": 75.863077,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Goiânia",
+   "state": "Goiânia",
+   "lat": -16.718081,
+   "lon": -49.301971,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Sanaa",
+   "state": "Sanaa",
+   "lat": 15.356679,
+   "lon": 44.204648,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Port-au-Prince",
+   "state": "Port-au-Prince",
+   "lat": 18.542971,
+   "lon": -72.33798,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Haiphong",
+   "state": "Haiphong",
+   "lat": 20.831952,
+   "lon": 106.678147,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Suzhou",
+   "state": "Suzhou",
+   "lat": 33.638057,
+   "lon": 116.976943,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Nanyang",
+   "state": "Nanyang",
+   "lat": 33.002346,
+   "lon": 112.528074,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Bucharest",
+   "state": "Bucharest",
+   "lat": 44.435318,
+   "lon": 26.098001,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Ningbo",
+   "state": "Ningbo",
+   "lat": 29.881917,
+   "lon": 121.548092,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Douala",
+   "state": "Douala",
+   "lat": 4.062356,
+   "lon": 9.708045,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Cleveland",
+   "state": "Cleveland",
+   "lat": 41.471933,
+   "lon": -81.696944,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Portland",
+   "state": "Portland",
+   "lat": 45.52197,
+   "lon": -122.681936,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "180°W to 120°W"
+  },
+  {
+   "id": "city:Asunción",
+   "state": "Asunción",
+   "lat": -25.294457,
+   "lon": -57.643451,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Brisbane",
+   "state": "Brisbane",
+   "lat": -27.453085,
+   "lon": 153.033147,
+   "continent": "Oceania",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Pittsburgh",
+   "state": "Pittsburgh",
+   "lat": 40.431945,
+   "lon": -80.001931,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Las Vegas",
+   "state": "Las Vegas",
+   "lat": 36.211944,
+   "lon": -115.221952,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Kyoto",
+   "state": "Kyoto",
+   "lat": 35.031938,
+   "lon": 135.748052,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Minsk",
+   "state": "Minsk",
+   "lat": 53.901923,
+   "lon": 27.564681,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Barranquilla",
+   "state": "Barranquilla",
+   "lat": 10.961935,
+   "lon": -74.801913,
+   "continent": "South America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Valencia",
+   "state": "Valencia",
+   "lat": 10.231927,
+   "lon": -67.981967,
+   "continent": "South America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Hamburg",
+   "state": "Hamburg",
+   "lat": 53.551971,
+   "lon": 9.998053,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Vadodara",
+   "state": "Vadodara",
+   "lat": 22.311965,
+   "lon": 73.178073,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Manaus",
+   "state": "Manaus",
+   "lat": -3.098086,
+   "lon": -60.001963,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Wuxi",
+   "state": "Wuxi",
+   "lat": 31.581942,
+   "lon": 120.298039,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Palembang",
+   "state": "Palembang",
+   "lat": -2.978093,
+   "lon": 104.748084,
+   "continent": "Asia",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:San Bernardino",
+   "state": "San Bernardino",
+   "lat": 34.12233,
+   "lon": -117.30198,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Brussels",
+   "state": "Brussels",
+   "lat": 50.835263,
+   "lon": 4.331371,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Bhopal",
+   "state": "Bhopal",
+   "lat": 23.251934,
+   "lon": 77.408047,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Hohhot",
+   "state": "Hohhot",
+   "lat": 40.821921,
+   "lon": 111.65805,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Warsaw",
+   "state": "Warsaw",
+   "lat": 52.251947,
+   "lon": 20.998054,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Rabat",
+   "state": "Rabat",
+   "lat": 34.025307,
+   "lon": -6.836408,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Quito",
+   "state": "Quito",
+   "lat": -0.213042,
+   "lon": -78.501997,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Antananarivo",
+   "state": "Antananarivo",
+   "lat": -18.914692,
+   "lon": 47.514678,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Coimbatore",
+   "state": "Coimbatore",
+   "lat": 11.001906,
+   "lon": 76.948075,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Daqing",
+   "state": "Daqing",
+   "lat": 46.581905,
+   "lon": 124.998062,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Budapest",
+   "state": "Budapest",
+   "lat": 47.501952,
+   "lon": 19.081375,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:San Jose",
+   "state": "San Jose",
+   "lat": 37.301929,
+   "lon": -121.851935,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "180°W to 120°W"
+  },
+  {
+   "id": "city:Turin",
+   "state": "Turin",
+   "lat": 45.072333,
+   "lon": 7.668015,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Ludhiana",
+   "state": "Ludhiana",
+   "lat": 30.929708,
+   "lon": 75.870312,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Qiqihar",
+   "state": "Qiqihar",
+   "lat": 47.346923,
+   "lon": 123.988046,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Anshan",
+   "state": "Anshan",
+   "lat": 41.116967,
+   "lon": 122.938085,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Cincinnati",
+   "state": "Cincinnati",
+   "lat": 39.163831,
+   "lon": -84.458869,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Handan",
+   "state": "Handan",
+   "lat": 36.581921,
+   "lon": 114.478033,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Isfahan",
+   "state": "Isfahan",
+   "lat": 32.701951,
+   "lon": 51.698092,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Yaoundé",
+   "state": "Yaoundé",
+   "lat": 3.868647,
+   "lon": 11.514705,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Sacramento",
+   "state": "Sacramento",
+   "lat": 38.576967,
+   "lon": -121.471984,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "180°W to 120°W"
+  },
+  {
+   "id": "city:Shantou",
+   "state": "Shantou",
+   "lat": 23.371952,
+   "lon": 116.66808,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Agra",
+   "state": "Agra",
+   "lat": 27.172366,
+   "lon": 78.013075,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Zhanjiang",
+   "state": "Zhanjiang",
+   "lat": 21.20193,
+   "lon": 110.378076,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:La Paz",
+   "state": "La Paz",
+   "lat": -16.496028,
+   "lon": -68.151931,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Abuja",
+   "state": "Abuja",
+   "lat": 9.085279,
+   "lon": 7.531382,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Harare",
+   "state": "Harare",
+   "lat": -17.815844,
+   "lon": 31.042764,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Khulna",
+   "state": "Khulna",
+   "lat": 22.841933,
+   "lon": 89.558055,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Tijuana",
+   "state": "Tijuana",
+   "lat": 32.501963,
+   "lon": -117.081942,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Perth",
+   "state": "Perth",
+   "lat": -31.953069,
+   "lon": 115.838053,
+   "continent": "Oceania",
+   "north": false,
+   "east": true,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Vishakhapatnam",
+   "state": "Vishakhapatnam",
+   "lat": 17.731961,
+   "lon": 83.303036,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Multan",
+   "state": "Multan",
+   "lat": 30.201923,
+   "lon": 71.453062,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Gujranwala",
+   "state": "Gujranwala",
+   "lat": 32.162372,
+   "lon": 74.183076,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Montevideo",
+   "state": "Montevideo",
+   "lat": -34.856096,
+   "lon": -56.172998,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Florence",
+   "state": "Florence",
+   "lat": 43.780001,
+   "lon": 11.25,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Bamako",
+   "state": "Bamako",
+   "lat": 12.651961,
+   "lon": -8.001985,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Bursa",
+   "state": "Bursa",
+   "lat": 40.201933,
+   "lon": 29.068052,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:León",
+   "state": "León",
+   "lat": 21.151933,
+   "lon": -101.701976,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Nasik",
+   "state": "Nasik",
+   "lat": 20.002365,
+   "lon": 73.778036,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:San Antonio",
+   "state": "San Antonio",
+   "lat": 29.489279,
+   "lon": -98.509251,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Kansas City",
+   "state": "Kansas City",
+   "lat": 39.109034,
+   "lon": -94.60604,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Daejeon",
+   "state": "Daejeon",
+   "lat": 36.337492,
+   "lon": 127.423082,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Neijiang",
+   "state": "Neijiang",
+   "lat": 29.582323,
+   "lon": 105.048066,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Phnom Penh",
+   "state": "Phnom Penh",
+   "lat": 11.551976,
+   "lon": 104.914689,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Quanzhou",
+   "state": "Quanzhou",
+   "lat": 24.901962,
+   "lon": 118.578041,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Kharkiv",
+   "state": "Kharkiv",
+   "lat": 50.001929,
+   "lon": 36.248079,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Lomé",
+   "state": "Lomé",
+   "lat": 6.133883,
+   "lon": 1.220811,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Córdoba",
+   "state": "Córdoba",
+   "lat": -31.398012,
+   "lon": -64.18424,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Huainan",
+   "state": "Huainan",
+   "lat": 32.63193,
+   "lon": 116.978035,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Doha",
+   "state": "Doha",
+   "lat": 25.286556,
+   "lon": 51.532968,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Kuala Lumpur",
+   "state": "Kuala Lumpur",
+   "lat": 3.168612,
+   "lon": 101.698037,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Maputo",
+   "state": "Maputo",
+   "lat": -25.953332,
+   "lon": 32.587217,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Kaduna",
+   "state": "Kaduna",
+   "lat": 10.521961,
+   "lon": 7.438055,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Ft.  Worth",
+   "state": "Ft.  Worth",
+   "lat": 32.739977,
+   "lon": -97.340038,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Gwangju",
+   "state": "Gwangju",
+   "lat": 35.172912,
+   "lon": 126.908488,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Indianapolis",
+   "state": "Indianapolis",
+   "lat": 39.751934,
+   "lon": -86.171994,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:San Salvador",
+   "state": "San Salvador",
+   "lat": 13.711948,
+   "lon": -89.204987,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Lyon",
+   "state": "Lyon",
+   "lat": 45.771954,
+   "lon": 4.828085,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Kampala",
+   "state": "Kampala",
+   "lat": 0.318605,
+   "lon": 32.581378,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Tabriz",
+   "state": "Tabriz",
+   "lat": 38.088237,
+   "lon": 46.2993,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:The Hague",
+   "state": "The Hague",
+   "lat": 52.080037,
+   "lon": 4.269961,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Davao",
+   "state": "Davao",
+   "lat": 7.111963,
+   "lon": 125.62805,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Marseille",
+   "state": "Marseille",
+   "lat": 43.291925,
+   "lon": 5.373064,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Meerut",
+   "state": "Meerut",
+   "lat": 29.002358,
+   "lon": 77.698055,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Mianyang",
+   "state": "Mianyang",
+   "lat": 31.471923,
+   "lon": 104.768031,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Semarang",
+   "state": "Semarang",
+   "lat": -6.964672,
+   "lon": 110.418074,
+   "continent": "Asia",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Faridabad",
+   "state": "Faridabad",
+   "lat": 28.435279,
+   "lon": 77.314721,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Novosibirsk",
+   "state": "Novosibirsk",
+   "lat": 55.031906,
+   "lon": 82.958096,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Milwaukee",
+   "state": "Milwaukee",
+   "lat": 43.054601,
+   "lon": -87.921913,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Makkah",
+   "state": "Makkah",
+   "lat": 21.431967,
+   "lon": 39.818094,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Auckland",
+   "state": "Auckland",
+   "lat": -36.848055,
+   "lon": 174.763027,
+   "continent": "Oceania",
+   "north": false,
+   "east": true,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Brazzaville",
+   "state": "Brazzaville",
+   "lat": -4.25724,
+   "lon": 15.282744,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Lubumbashi",
+   "state": "Lubumbashi",
+   "lat": -11.678079,
+   "lon": 27.478072,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Varanasi",
+   "state": "Varanasi",
+   "lat": 25.331936,
+   "lon": 82.998094,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Orlando",
+   "state": "Orlando",
+   "lat": 28.511923,
+   "lon": -81.381976,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Ghaziabad",
+   "state": "Ghaziabad",
+   "lat": 28.662327,
+   "lon": 77.406445,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Pretoria",
+   "state": "Pretoria",
+   "lat": -25.704975,
+   "lon": 28.227483,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Lusaka",
+   "state": "Lusaka",
+   "lat": -15.414698,
+   "lon": 28.281382,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Asansol",
+   "state": "Asansol",
+   "lat": 23.685279,
+   "lon": 86.981387,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Mosul",
+   "state": "Mosul",
+   "lat": 36.346948,
+   "lon": 43.143059,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Yekaterinburg",
+   "state": "Yekaterinburg",
+   "lat": 56.851976,
+   "lon": 60.598014,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Peshawar",
+   "state": "Peshawar",
+   "lat": 34.006962,
+   "lon": 71.533057,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Mandalay",
+   "state": "Mandalay",
+   "lat": 21.971934,
+   "lon": 96.083083,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Jamshedpur",
+   "state": "Jamshedpur",
+   "lat": 22.789481,
+   "lon": 86.195573,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Mbuji-Mayi",
+   "state": "Mbuji-Mayi",
+   "lat": -6.148081,
+   "lon": 23.59805,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Madurai",
+   "state": "Madurai",
+   "lat": 9.921972,
+   "lon": 78.118081,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Adana",
+   "state": "Adana",
+   "lat": 36.996935,
+   "lon": 35.318058,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Jabalpur",
+   "state": "Jabalpur",
+   "lat": 23.177003,
+   "lon": 79.953112,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:San José",
+   "state": "San José",
+   "lat": 9.936958,
+   "lon": -84.085997,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Panama City",
+   "state": "Panama City",
+   "lat": 8.969963,
+   "lon": -79.534983,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Nizhny Novgorod",
+   "state": "Nizhny Novgorod",
+   "lat": 56.334953,
+   "lon": 43.998149,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Chifeng",
+   "state": "Chifeng",
+   "lat": 42.271961,
+   "lon": 118.948044,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Munich",
+   "state": "Munich",
+   "lat": 48.131888,
+   "lon": 11.573048,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Huaiyin",
+   "state": "Huaiyin",
+   "lat": 33.581949,
+   "lon": 119.028039,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Makassar",
+   "state": "Makassar",
+   "lat": -5.138013,
+   "lon": 119.430082,
+   "continent": "Asia",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Rajkot",
+   "state": "Rajkot",
+   "lat": 22.311965,
+   "lon": 70.798063,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Dhanbad",
+   "state": "Dhanbad",
+   "lat": 23.802339,
+   "lon": 86.41804,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Shiraz",
+   "state": "Shiraz",
+   "lat": 29.631906,
+   "lon": 52.568065,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Geneva",
+   "state": "Geneva",
+   "lat": 46.210008,
+   "lon": 6.140028,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Tianshui",
+   "state": "Tianshui",
+   "lat": 34.601964,
+   "lon": 105.918038,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Liupanshui",
+   "state": "Liupanshui",
+   "lat": 26.596381,
+   "lon": 104.831386,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Seville",
+   "state": "Seville",
+   "lat": 37.405015,
+   "lon": -5.980007,
+   "continent": "Europe",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Amritsar",
+   "state": "Amritsar",
+   "lat": 31.641938,
+   "lon": 74.868047,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Vila Velha",
+   "state": "Vila Velha",
+   "lat": -20.367608,
+   "lon": -40.317989,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Almaty",
+   "state": "Almaty",
+   "lat": 43.326936,
+   "lon": 76.91309,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Rosario",
+   "state": "Rosario",
+   "lat": -32.949184,
+   "lon": -60.668254,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Allahabad",
+   "state": "Allahabad",
+   "lat": 25.456941,
+   "lon": 81.838061,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Benin City",
+   "state": "Benin City",
+   "lat": 6.342423,
+   "lon": 5.618062,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Maceió",
+   "state": "Maceió",
+   "lat": -9.61805,
+   "lon": -35.73192,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Sofia",
+   "state": "Sofia",
+   "lat": 42.685295,
+   "lon": 23.314708,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Banghazi",
+   "state": "Banghazi",
+   "lat": 32.118679,
+   "lon": 20.064777,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Raleigh",
+   "state": "Raleigh",
+   "lat": 35.818781,
+   "lon": -78.644693,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Prague",
+   "state": "Prague",
+   "lat": 50.085283,
+   "lon": 14.464034,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Austin",
+   "state": "Austin",
+   "lat": 30.268896,
+   "lon": -97.744724,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Glasgow",
+   "state": "Glasgow",
+   "lat": 55.876351,
+   "lon": -4.252653,
+   "continent": "Europe",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Ouagadougou",
+   "state": "Ouagadougou",
+   "lat": 12.372262,
+   "lon": -1.52667,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Ottawa",
+   "state": "Ottawa",
+   "lat": 45.418643,
+   "lon": -75.701961,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Adelaide",
+   "state": "Adelaide",
+   "lat": -34.933042,
+   "lon": 138.598059,
+   "continent": "Oceania",
+   "north": false,
+   "east": true,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Torreón",
+   "state": "Torreón",
+   "lat": 25.571999,
+   "lon": -103.421949,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Srinagar",
+   "state": "Srinagar",
+   "lat": 34.101917,
+   "lon": 74.813064,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Vijayawada",
+   "state": "Vijayawada",
+   "lat": 16.521905,
+   "lon": 80.628057,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Samara",
+   "state": "Samara",
+   "lat": 53.196953,
+   "lon": 50.149349,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Omsk",
+   "state": "Omsk",
+   "lat": 54.991934,
+   "lon": 73.398008,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Yulin",
+   "state": "Yulin",
+   "lat": 22.63192,
+   "lon": 110.148064,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Kazan",
+   "state": "Kazan",
+   "lat": 55.751888,
+   "lon": 49.124399,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Helsinki",
+   "state": "Helsinki",
+   "lat": 60.177509,
+   "lon": 24.932181,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "60°N to 90°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Aurangabad",
+   "state": "Aurangabad",
+   "lat": 19.897642,
+   "lon": 75.318356,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Calgary",
+   "state": "Calgary",
+   "lat": 51.084938,
+   "lon": -114.081944,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Zürich",
+   "state": "Zürich",
+   "lat": 47.381934,
+   "lon": 8.548064,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Yerevan",
+   "state": "Yerevan",
+   "lat": 40.183097,
+   "lon": 44.511606,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Ankang",
+   "state": "Ankang",
+   "lat": 32.679981,
+   "lon": 109.020002,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Mogadishu",
+   "state": "Mogadishu",
+   "lat": 2.068627,
+   "lon": 45.364732,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Tbilisi",
+   "state": "Tbilisi",
+   "lat": 41.726956,
+   "lon": 44.78885,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Huambo",
+   "state": "Huambo",
+   "lat": -12.74804,
+   "lon": 15.758064,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Belgrade",
+   "state": "Belgrade",
+   "lat": 44.820591,
+   "lon": 20.466045,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Bhilai",
+   "state": "Bhilai",
+   "lat": 21.218613,
+   "lon": 81.431387,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Chelyabinsk",
+   "state": "Chelyabinsk",
+   "lat": 55.156937,
+   "lon": 61.436722,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Natal",
+   "state": "Natal",
+   "lat": -5.778077,
+   "lon": -35.24195,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Dushanbe",
+   "state": "Dushanbe",
+   "lat": 38.560035,
+   "lon": 68.773879,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:København",
+   "state": "København",
+   "lat": 55.68051,
+   "lon": 12.56154,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Memphis",
+   "state": "Memphis",
+   "lat": 35.121933,
+   "lon": -90.001941,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Amman",
+   "state": "Amman",
+   "lat": 31.951971,
+   "lon": 35.931354,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Dublin",
+   "state": "Dublin",
+   "lat": 53.335007,
+   "lon": -6.250852,
+   "continent": "Europe",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Edmonton",
+   "state": "Edmonton",
+   "lat": 53.551971,
+   "lon": -113.501928,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Sholapur",
+   "state": "Sholapur",
+   "lat": 17.672352,
+   "lon": 75.898062,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Rostov",
+   "state": "Rostov",
+   "lat": 47.236594,
+   "lon": 39.71071,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Dnipro",
+   "state": "Dnipro",
+   "lat": 48.481918,
+   "lon": 34.998078,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Xining",
+   "state": "Xining",
+   "lat": 36.621945,
+   "lon": 101.768059,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Norfolk",
+   "state": "Norfolk",
+   "lat": 36.849959,
+   "lon": -76.280006,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Lille",
+   "state": "Lille",
+   "lat": 50.651915,
+   "lon": 3.078062,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Ranchi",
+   "state": "Ranchi",
+   "lat": 23.371952,
+   "lon": 85.328081,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:São Luís",
+   "state": "São Luís",
+   "lat": -2.514039,
+   "lon": -44.267937,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Amsterdam",
+   "state": "Amsterdam",
+   "lat": 52.351915,
+   "lon": 4.914694,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Jerusalem",
+   "state": "Jerusalem",
+   "lat": 31.778408,
+   "lon": 35.206626,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Guatemala City",
+   "state": "Guatemala City",
+   "lat": 14.623081,
+   "lon": -90.528911,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Florianópolis",
+   "state": "Florianópolis",
+   "lat": -27.578039,
+   "lon": -48.521966,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Port Elizabeth",
+   "state": "Port Elizabeth",
+   "lat": -33.968088,
+   "lon": 25.598083,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Port Harcourt",
+   "state": "Port Harcourt",
+   "lat": 4.811948,
+   "lon": 7.008055,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Jiamusi",
+   "state": "Jiamusi",
+   "lat": 46.831967,
+   "lon": 130.348072,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Bridgeport",
+   "state": "Bridgeport",
+   "lat": 41.181925,
+   "lon": -73.201907,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Ufa",
+   "state": "Ufa",
+   "lat": 54.791921,
+   "lon": 56.038085,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Hengyang",
+   "state": "Hengyang",
+   "lat": 26.881971,
+   "lon": 112.58807,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Buffalo",
+   "state": "Buffalo",
+   "lat": 42.881924,
+   "lon": -78.881948,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Medina",
+   "state": "Medina",
+   "lat": 24.501935,
+   "lon": 39.578057,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Fez",
+   "state": "Fez",
+   "lat": 34.056546,
+   "lon": -5.002323,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Da Nang",
+   "state": "Da Nang",
+   "lat": 16.060039,
+   "lon": 108.249971,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Baoshan",
+   "state": "Baoshan",
+   "lat": 25.119977,
+   "lon": 99.15001,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Perm",
+   "state": "Perm",
+   "lat": 58.001906,
+   "lon": 56.248047,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Ahvaz",
+   "state": "Ahvaz",
+   "lat": 31.281935,
+   "lon": 48.718067,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Jodhpur",
+   "state": "Jodhpur",
+   "lat": 26.293712,
+   "lon": 73.014827,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:San Luis Potosí",
+   "state": "San Luis Potosí",
+   "lat": 22.171922,
+   "lon": -101.001941,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Odessa",
+   "state": "Odessa",
+   "lat": 46.491962,
+   "lon": 30.708055,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Yinchuan",
+   "state": "Yinchuan",
+   "lat": 38.46992,
+   "lon": 106.271092,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:N'Djamena",
+   "state": "N'Djamena",
+   "lat": 12.115042,
+   "lon": 15.047203,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Jacksonville",
+   "state": "Jacksonville",
+   "lat": 30.331967,
+   "lon": -81.671933,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Donetsk",
+   "state": "Donetsk",
+   "lat": 48.001948,
+   "lon": 37.828034,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Guilin",
+   "state": "Guilin",
+   "lat": 25.281939,
+   "lon": 110.278082,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Volgograd",
+   "state": "Volgograd",
+   "lat": 48.711956,
+   "lon": 44.498015,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Guwahati",
+   "state": "Guwahati",
+   "lat": 26.161963,
+   "lon": 91.768049,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Chandigarh",
+   "state": "Chandigarh",
+   "lat": 30.721943,
+   "lon": 76.77806,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Gwalior",
+   "state": "Gwalior",
+   "lat": 26.231933,
+   "lon": 78.178129,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Salt Lake City",
+   "state": "Salt Lake City",
+   "lat": 40.776962,
+   "lon": -111.931998,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Jixi",
+   "state": "Jixi",
+   "lat": 45.301906,
+   "lon": 130.968085,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Mérida",
+   "state": "Mérida",
+   "lat": 20.968585,
+   "lon": -89.618579,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Pingxiang",
+   "state": "Pingxiang",
+   "lat": 27.621951,
+   "lon": 113.848097,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Thiruvananthapuram",
+   "state": "Thiruvananthapuram",
+   "lat": 8.50193,
+   "lon": 76.948075,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Kozhikode",
+   "state": "Kozhikode",
+   "lat": 11.252382,
+   "lon": 75.768044,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Ogbomosho",
+   "state": "Ogbomosho",
+   "lat": 8.131952,
+   "lon": 4.238043,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Tiruchirappalli",
+   "state": "Tiruchirappalli",
+   "lat": 10.811944,
+   "lon": 78.688021,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:General Santos",
+   "state": "General Santos",
+   "lat": 6.110827,
+   "lon": 125.174726,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Tulsa",
+   "state": "Tulsa",
+   "lat": 36.120003,
+   "lon": -95.930021,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Tegucigalpa",
+   "state": "Tegucigalpa",
+   "lat": 14.103991,
+   "lon": -87.219475,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Kingston",
+   "state": "Kingston",
+   "lat": 17.977077,
+   "lon": -76.767434,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Naypyidaw",
+   "state": "Naypyidaw",
+   "lat": 19.768503,
+   "lon": 96.116673,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Krasnoyarsk",
+   "state": "Krasnoyarsk",
+   "lat": 56.015929,
+   "lon": 92.864055,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Managua",
+   "state": "Managua",
+   "lat": 12.154962,
+   "lon": -86.270438,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Konya",
+   "state": "Konya",
+   "lat": 37.876958,
+   "lon": 32.473064,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Niamey",
+   "state": "Niamey",
+   "lat": 13.518652,
+   "lon": 2.11471,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Richmond",
+   "state": "Richmond",
+   "lat": 37.551965,
+   "lon": -77.451932,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Teresina",
+   "state": "Teresina",
+   "lat": -5.093055,
+   "lon": -42.781955,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Naha",
+   "state": "Naha",
+   "lat": 26.207172,
+   "lon": 127.672972,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Albuquerque",
+   "state": "Albuquerque",
+   "lat": 35.104975,
+   "lon": -106.641331,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Maiduguri",
+   "state": "Maiduguri",
+   "lat": 11.851906,
+   "lon": 13.158067,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Tirana",
+   "state": "Tirana",
+   "lat": 41.327541,
+   "lon": 19.818883,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Kathmandu",
+   "state": "Kathmandu",
+   "lat": 27.718638,
+   "lon": 85.314696,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Mendoza",
+   "state": "Mendoza",
+   "lat": -32.881384,
+   "lon": -68.818557,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Hubballi",
+   "state": "Hubballi",
+   "lat": 15.361924,
+   "lon": 75.12307,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Concepción",
+   "state": "Concepción",
+   "lat": -36.830014,
+   "lon": -73.050022,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Mysuru",
+   "state": "Mysuru",
+   "lat": 12.31193,
+   "lon": 76.658067,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Cartagena",
+   "state": "Cartagena",
+   "lat": 10.401684,
+   "lon": -75.516339,
+   "continent": "South America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Mexicali",
+   "state": "Mexicali",
+   "lat": 32.651928,
+   "lon": -115.481962,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Ulaanbaatar",
+   "state": "Ulaanbaatar",
+   "lat": 47.918619,
+   "lon": 106.91467,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Tongliao",
+   "state": "Tongliao",
+   "lat": 43.621905,
+   "lon": 122.268048,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Mombasa",
+   "state": "Mombasa",
+   "lat": -4.03808,
+   "lon": 39.687972,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Omaha",
+   "state": "Omaha",
+   "lat": 41.240001,
+   "lon": -96.00999,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Nashville",
+   "state": "Nashville",
+   "lat": 36.17192,
+   "lon": -86.781931,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Bilbao",
+   "state": "Bilbao",
+   "lat": 43.249982,
+   "lon": -2.929987,
+   "continent": "Europe",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Raipur",
+   "state": "Raipur",
+   "lat": 21.23694,
+   "lon": 81.633061,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Salem",
+   "state": "Salem",
+   "lat": 11.671943,
+   "lon": 78.178129,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Marrakesh",
+   "state": "Marrakesh",
+   "lat": 31.631939,
+   "lon": -8.001933,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Basra",
+   "state": "Basra",
+   "lat": 30.51547,
+   "lon": 47.811611,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Bandar Lampung",
+   "state": "Bandar Lampung",
+   "lat": -5.428073,
+   "lon": 105.268052,
+   "continent": "Asia",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Palermo",
+   "state": "Palermo",
+   "lat": 38.126969,
+   "lon": 13.348081,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Cardiff",
+   "state": "Cardiff",
+   "lat": 51.499995,
+   "lon": -3.225008,
+   "continent": "Europe",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Kigali",
+   "state": "Kigali",
+   "lat": -1.951644,
+   "lon": 30.058586,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Tampico",
+   "state": "Tampico",
+   "lat": 22.30002,
+   "lon": -97.870006,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Jullundur",
+   "state": "Jullundur",
+   "lat": 31.336867,
+   "lon": 75.567074,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Padang",
+   "state": "Padang",
+   "lat": -0.958061,
+   "lon": 100.358068,
+   "continent": "Asia",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Valparaíso",
+   "state": "Valparaíso",
+   "lat": -33.045819,
+   "lon": -71.62296,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "30°S to 60°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Shache",
+   "state": "Shache",
+   "lat": 38.426142,
+   "lon": 77.250003,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Toulouse",
+   "state": "Toulouse",
+   "lat": 43.621905,
+   "lon": 1.447981,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Voronezh",
+   "state": "Voronezh",
+   "lat": 51.731927,
+   "lon": 39.26805,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Bhubaneswar",
+   "state": "Bhubaneswar",
+   "lat": 20.272374,
+   "lon": 85.825415,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Saratov",
+   "state": "Saratov",
+   "lat": 51.581936,
+   "lon": 46.02805,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Bishkek",
+   "state": "Bishkek",
+   "lat": 42.875025,
+   "lon": 74.583258,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Oslo",
+   "state": "Oslo",
+   "lat": 59.918636,
+   "lon": 10.748033,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Bangui",
+   "state": "Bangui",
+   "lat": 4.366644,
+   "lon": 18.558288,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Warri",
+   "state": "Warri",
+   "lat": 5.519959,
+   "lon": 5.76,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Tucumán",
+   "state": "Tucumán",
+   "lat": -26.814054,
+   "lon": -65.21857,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Thessaloniki",
+   "state": "Thessaloniki",
+   "lat": 40.698052,
+   "lon": 22.883055,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Kota",
+   "state": "Kota",
+   "lat": 25.181945,
+   "lon": 75.833053,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Freetown",
+   "state": "Freetown",
+   "lat": 8.471957,
+   "lon": -13.236162,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Yueyang",
+   "state": "Yueyang",
+   "lat": 29.381999,
+   "lon": 113.098065,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Tucson",
+   "state": "Tucson",
+   "lat": 32.206943,
+   "lon": -110.891932,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Arequipa",
+   "state": "Arequipa",
+   "lat": -16.418048,
+   "lon": -71.531957,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Cebu",
+   "state": "Cebu",
+   "lat": 10.321922,
+   "lon": 123.898129,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Rajshahi",
+   "state": "Rajshahi",
+   "lat": 24.37693,
+   "lon": 88.603074,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Culiacán",
+   "state": "Culiacán",
+   "lat": 24.831941,
+   "lon": -107.381914,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Cuiabá",
+   "state": "Cuiabá",
+   "lat": -15.567661,
+   "lon": -56.086931,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Aligarh",
+   "state": "Aligarh",
+   "lat": 27.894157,
+   "lon": 78.059842,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Malang",
+   "state": "Malang",
+   "lat": -7.978046,
+   "lon": 112.608069,
+   "continent": "Asia",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Lviv",
+   "state": "Lviv",
+   "lat": 49.83498,
+   "lon": 24.029996,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Bordeaux",
+   "state": "Bordeaux",
+   "lat": 44.851959,
+   "lon": -0.596959,
+   "continent": "Europe",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Oran",
+   "state": "Oran",
+   "lat": 35.711948,
+   "lon": -0.621919,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Chihuahua",
+   "state": "Chihuahua",
+   "lat": 28.646927,
+   "lon": -106.086928,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Jammu",
+   "state": "Jammu",
+   "lat": 32.713733,
+   "lon": 74.844793,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Oklahoma City",
+   "state": "Oklahoma City",
+   "lat": 35.471989,
+   "lon": -97.520629,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Moradabad",
+   "state": "Moradabad",
+   "lat": 28.843737,
+   "lon": 78.754838,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Honolulu",
+   "state": "Honolulu",
+   "lat": 21.308822,
+   "lon": -157.859944,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "180°W to 120°W"
+  },
+  {
+   "id": "city:New Orleans",
+   "state": "New Orleans",
+   "lat": 29.996948,
+   "lon": -90.041913,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Islamabad",
+   "state": "Islamabad",
+   "lat": 33.701942,
+   "lon": 73.164689,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Campo Grande",
+   "state": "Campo Grande",
+   "lat": -20.448086,
+   "lon": -54.618571,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Mangaluru",
+   "state": "Mangaluru",
+   "lat": 12.900025,
+   "lon": 74.849994,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Zamboanga",
+   "state": "Zamboanga",
+   "lat": 6.921923,
+   "lon": 122.078085,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°E to 180°E"
+  },
+  {
+   "id": "city:Quetta",
+   "state": "Quetta",
+   "lat": 30.221948,
+   "lon": 67.023048,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Trujillo",
+   "state": "Trujillo",
+   "lat": -8.120035,
+   "lon": -79.019968,
+   "continent": "South America",
+   "north": false,
+   "east": false,
+   "lat_band": "0° to 30°S",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Kananga",
+   "state": "Kananga",
+   "lat": -5.888096,
+   "lon": 22.398072,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Cotonou",
+   "state": "Cotonou",
+   "lat": 6.401954,
+   "lon": 2.518045,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Kraków",
+   "state": "Kraków",
+   "lat": 50.061925,
+   "lon": 19.958066,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Rochester",
+   "state": "Rochester",
+   "lat": 43.172372,
+   "lon": -77.621896,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Vientiane",
+   "state": "Vientiane",
+   "lat": 17.966693,
+   "lon": 102.59998,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:El Paso",
+   "state": "El Paso",
+   "lat": 31.78193,
+   "lon": -106.511941,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Taizz",
+   "state": "Taizz",
+   "lat": 13.606398,
+   "lon": 44.037474,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Kolhapur",
+   "state": "Kolhapur",
+   "lat": 16.7,
+   "lon": 74.220007,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Ciudad Guayana",
+   "state": "Ciudad Guayana",
+   "lat": 8.370018,
+   "lon": -62.619987,
+   "continent": "South America",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Riga",
+   "state": "Riga",
+   "lat": 56.950024,
+   "lon": 24.099965,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Nouakchott",
+   "state": "Nouakchott",
+   "lat": 18.086427,
+   "lon": -15.97534,
+   "continent": "Africa",
+   "north": true,
+   "east": false,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°W to 0°"
+  },
+  {
+   "id": "city:Gdańsk",
+   "state": "Gdańsk",
+   "lat": 54.359975,
+   "lon": 18.64004,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:St.  Paul",
+   "state": "St.  Paul",
+   "lat": 44.943987,
+   "lon": -93.084975,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Muscat",
+   "state": "Muscat",
+   "lat": 23.613325,
+   "lon": 58.593312,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Sokoto",
+   "state": "Sokoto",
+   "lat": 13.060016,
+   "lon": 5.240031,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Ashgabat",
+   "state": "Ashgabat",
+   "lat": 37.949995,
+   "lon": 58.383299,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Zagreb",
+   "state": "Zagreb",
+   "lat": 45.800007,
+   "lon": 15.999995,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Shaoguan",
+   "state": "Shaoguan",
+   "lat": 24.799971,
+   "lon": 113.579982,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Kandahar",
+   "state": "Kandahar",
+   "lat": 31.61002,
+   "lon": 65.694946,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Samarkand",
+   "state": "Samarkand",
+   "lat": 39.670019,
+   "lon": 66.944999,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "60°E to 120°E"
+  },
+  {
+   "id": "city:Bulawayo",
+   "state": "Bulawayo",
+   "lat": -20.169998,
+   "lon": 28.580002,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Sarajevo",
+   "state": "Sarajevo",
+   "lat": 43.850022,
+   "lon": 18.383002,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Enugu",
+   "state": "Enugu",
+   "lat": 6.450031,
+   "lon": 7.499997,
+   "continent": "Africa",
+   "north": true,
+   "east": true,
+   "lat_band": "0° to 30°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Chișinău",
+   "state": "Chișinău",
+   "lat": 47.005024,
+   "lon": 28.857711,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Catania",
+   "state": "Catania",
+   "lat": 37.499971,
+   "lon": 15.079999,
+   "continent": "Europe",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Najaf",
+   "state": "Najaf",
+   "lat": 32.000332,
+   "lon": 44.335371,
+   "continent": "Asia",
+   "north": true,
+   "east": true,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "0° to 60°E"
+  },
+  {
+   "id": "city:Syracuse",
+   "state": "Syracuse",
+   "lat": 43.049994,
+   "lon": -76.150014,
+   "continent": "North America",
+   "north": true,
+   "east": false,
+   "lat_band": "30°N to 60°N",
+   "lon_band": "120°W to 60°W"
+  },
+  {
+   "id": "city:Pointe-Noire",
+   "state": "Pointe-Noire",
+   "lat": -4.770007,
+   "lon": 11.880039,
+   "continent": "Africa",
+   "north": false,
+   "east": true,
+   "lat_band": "0° to 30°S",
+   "lon_band": "0° to 60°E"
+  }
+ ],
+ "countries": [
+  {
+   "id": "country:Zimbabwe",
+   "state": "Zimbabwe",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Zambia",
+   "state": "Zambia",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Yemen",
+   "state": "Yemen",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Vietnam",
+   "state": "Vietnam",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Venezuela",
+   "state": "Venezuela",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Vatican",
+   "state": "Vatican",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Vanuatu",
+   "state": "Vanuatu",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Uzbekistan",
+   "state": "Uzbekistan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Uruguay",
+   "state": "Uruguay",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Federated States of Micronesia",
+   "state": "Federated States of Micronesia",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Marshall Islands",
+   "state": "Marshall Islands",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Northern Mariana Islands",
+   "state": "Northern Mariana Islands",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:United States Virgin Islands",
+   "state": "United States Virgin Islands",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Guam",
+   "state": "Guam",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:American Samoa",
+   "state": "American Samoa",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Puerto Rico",
+   "state": "Puerto Rico",
+   "continent": "North America"
+  },
+  {
+   "id": "country:United States of America",
+   "state": "United States of America",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Pitcairn Islands",
+   "state": "Pitcairn Islands",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Anguilla",
+   "state": "Anguilla",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Falkland Islands",
+   "state": "Falkland Islands",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Cayman Islands",
+   "state": "Cayman Islands",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Bermuda",
+   "state": "Bermuda",
+   "continent": "North America"
+  },
+  {
+   "id": "country:British Virgin Islands",
+   "state": "British Virgin Islands",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Turks and Caicos Islands",
+   "state": "Turks and Caicos Islands",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Montserrat",
+   "state": "Montserrat",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Jersey",
+   "state": "Jersey",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Guernsey",
+   "state": "Guernsey",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Isle of Man",
+   "state": "Isle of Man",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:United Kingdom",
+   "state": "United Kingdom",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:United Arab Emirates",
+   "state": "United Arab Emirates",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Ukraine",
+   "state": "Ukraine",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Uganda",
+   "state": "Uganda",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Turkmenistan",
+   "state": "Turkmenistan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Turkey",
+   "state": "Turkey",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Tunisia",
+   "state": "Tunisia",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Trinidad and Tobago",
+   "state": "Trinidad and Tobago",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Tonga",
+   "state": "Tonga",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Togo",
+   "state": "Togo",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:East Timor",
+   "state": "East Timor",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Thailand",
+   "state": "Thailand",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:United Republic of Tanzania",
+   "state": "United Republic of Tanzania",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Tajikistan",
+   "state": "Tajikistan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Taiwan",
+   "state": "Taiwan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Syria",
+   "state": "Syria",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Switzerland",
+   "state": "Switzerland",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Sweden",
+   "state": "Sweden",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:eSwatini",
+   "state": "eSwatini",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Suriname",
+   "state": "Suriname",
+   "continent": "South America"
+  },
+  {
+   "id": "country:South Sudan",
+   "state": "South Sudan",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Sudan",
+   "state": "Sudan",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Sri Lanka",
+   "state": "Sri Lanka",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Spain",
+   "state": "Spain",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:South Korea",
+   "state": "South Korea",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:South Africa",
+   "state": "South Africa",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Somalia",
+   "state": "Somalia",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Somaliland",
+   "state": "Somaliland",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Solomon Islands",
+   "state": "Solomon Islands",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Slovakia",
+   "state": "Slovakia",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Slovenia",
+   "state": "Slovenia",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Singapore",
+   "state": "Singapore",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Sierra Leone",
+   "state": "Sierra Leone",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Republic of Serbia",
+   "state": "Republic of Serbia",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Senegal",
+   "state": "Senegal",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Saudi Arabia",
+   "state": "Saudi Arabia",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:São Tomé and Principe",
+   "state": "São Tomé and Principe",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:San Marino",
+   "state": "San Marino",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Samoa",
+   "state": "Samoa",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Saint Vincent and the Grenadines",
+   "state": "Saint Vincent and the Grenadines",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Saint Lucia",
+   "state": "Saint Lucia",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Saint Kitts and Nevis",
+   "state": "Saint Kitts and Nevis",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Rwanda",
+   "state": "Rwanda",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Romania",
+   "state": "Romania",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Qatar",
+   "state": "Qatar",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Portugal",
+   "state": "Portugal",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Poland",
+   "state": "Poland",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Philippines",
+   "state": "Philippines",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Peru",
+   "state": "Peru",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Paraguay",
+   "state": "Paraguay",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Papua New Guinea",
+   "state": "Papua New Guinea",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Panama",
+   "state": "Panama",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Palau",
+   "state": "Palau",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Pakistan",
+   "state": "Pakistan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Oman",
+   "state": "Oman",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Norway",
+   "state": "Norway",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:North Korea",
+   "state": "North Korea",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Nigeria",
+   "state": "Nigeria",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Niger",
+   "state": "Niger",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Nicaragua",
+   "state": "Nicaragua",
+   "continent": "North America"
+  },
+  {
+   "id": "country:New Zealand",
+   "state": "New Zealand",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Niue",
+   "state": "Niue",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Cook Islands",
+   "state": "Cook Islands",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Netherlands",
+   "state": "Netherlands",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Aruba",
+   "state": "Aruba",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Curaçao",
+   "state": "Curaçao",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Nepal",
+   "state": "Nepal",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Nauru",
+   "state": "Nauru",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Namibia",
+   "state": "Namibia",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Mozambique",
+   "state": "Mozambique",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Morocco",
+   "state": "Morocco",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Western Sahara",
+   "state": "Western Sahara",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Montenegro",
+   "state": "Montenegro",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Mongolia",
+   "state": "Mongolia",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Moldova",
+   "state": "Moldova",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Monaco",
+   "state": "Monaco",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Mexico",
+   "state": "Mexico",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Mauritania",
+   "state": "Mauritania",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Malta",
+   "state": "Malta",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Mali",
+   "state": "Mali",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Malaysia",
+   "state": "Malaysia",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Malawi",
+   "state": "Malawi",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Madagascar",
+   "state": "Madagascar",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:North Macedonia",
+   "state": "North Macedonia",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Luxembourg",
+   "state": "Luxembourg",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Lithuania",
+   "state": "Lithuania",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Liechtenstein",
+   "state": "Liechtenstein",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Libya",
+   "state": "Libya",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Liberia",
+   "state": "Liberia",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Lesotho",
+   "state": "Lesotho",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Lebanon",
+   "state": "Lebanon",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Latvia",
+   "state": "Latvia",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Laos",
+   "state": "Laos",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Kyrgyzstan",
+   "state": "Kyrgyzstan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Kuwait",
+   "state": "Kuwait",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Kosovo",
+   "state": "Kosovo",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Kiribati",
+   "state": "Kiribati",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Kenya",
+   "state": "Kenya",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Kazakhstan",
+   "state": "Kazakhstan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Jordan",
+   "state": "Jordan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Japan",
+   "state": "Japan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Jamaica",
+   "state": "Jamaica",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Italy",
+   "state": "Italy",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Israel",
+   "state": "Israel",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Palestine",
+   "state": "Palestine",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Ireland",
+   "state": "Ireland",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Iraq",
+   "state": "Iraq",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Iran",
+   "state": "Iran",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Indonesia",
+   "state": "Indonesia",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:India",
+   "state": "India",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Iceland",
+   "state": "Iceland",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Hungary",
+   "state": "Hungary",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Honduras",
+   "state": "Honduras",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Haiti",
+   "state": "Haiti",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Guyana",
+   "state": "Guyana",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Guinea-Bissau",
+   "state": "Guinea-Bissau",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Guinea",
+   "state": "Guinea",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Guatemala",
+   "state": "Guatemala",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Grenada",
+   "state": "Grenada",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Greece",
+   "state": "Greece",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Ghana",
+   "state": "Ghana",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Germany",
+   "state": "Germany",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Georgia",
+   "state": "Georgia",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Gambia",
+   "state": "Gambia",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Gabon",
+   "state": "Gabon",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:France",
+   "state": "France",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Saint Pierre and Miquelon",
+   "state": "Saint Pierre and Miquelon",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Wallis and Futuna",
+   "state": "Wallis and Futuna",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Saint Martin",
+   "state": "Saint Martin",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Saint Barthelemy",
+   "state": "Saint Barthelemy",
+   "continent": "North America"
+  },
+  {
+   "id": "country:French Polynesia",
+   "state": "French Polynesia",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:New Caledonia",
+   "state": "New Caledonia",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Aland",
+   "state": "Aland",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Finland",
+   "state": "Finland",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Fiji",
+   "state": "Fiji",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Ethiopia",
+   "state": "Ethiopia",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Estonia",
+   "state": "Estonia",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Eritrea",
+   "state": "Eritrea",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Equatorial Guinea",
+   "state": "Equatorial Guinea",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:El Salvador",
+   "state": "El Salvador",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Egypt",
+   "state": "Egypt",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Ecuador",
+   "state": "Ecuador",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Dominican Republic",
+   "state": "Dominican Republic",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Dominica",
+   "state": "Dominica",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Djibouti",
+   "state": "Djibouti",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Greenland",
+   "state": "Greenland",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Faroe Islands",
+   "state": "Faroe Islands",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Denmark",
+   "state": "Denmark",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Czechia",
+   "state": "Czechia",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Northern Cyprus",
+   "state": "Northern Cyprus",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Cyprus",
+   "state": "Cyprus",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Cuba",
+   "state": "Cuba",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Croatia",
+   "state": "Croatia",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Ivory Coast",
+   "state": "Ivory Coast",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Costa Rica",
+   "state": "Costa Rica",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Democratic Republic of the Congo",
+   "state": "Democratic Republic of the Congo",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Republic of the Congo",
+   "state": "Republic of the Congo",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Comoros",
+   "state": "Comoros",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Colombia",
+   "state": "Colombia",
+   "continent": "South America"
+  },
+  {
+   "id": "country:China",
+   "state": "China",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Macao S.A.R",
+   "state": "Macao S.A.R",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Hong Kong S.A.R.",
+   "state": "Hong Kong S.A.R.",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Chile",
+   "state": "Chile",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Chad",
+   "state": "Chad",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Central African Republic",
+   "state": "Central African Republic",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Cabo Verde",
+   "state": "Cabo Verde",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Canada",
+   "state": "Canada",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Cameroon",
+   "state": "Cameroon",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Cambodia",
+   "state": "Cambodia",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Myanmar",
+   "state": "Myanmar",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Burundi",
+   "state": "Burundi",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Burkina Faso",
+   "state": "Burkina Faso",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Bulgaria",
+   "state": "Bulgaria",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Brunei",
+   "state": "Brunei",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Brazil",
+   "state": "Brazil",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Botswana",
+   "state": "Botswana",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Bosnia and Herzegovina",
+   "state": "Bosnia and Herzegovina",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Bolivia",
+   "state": "Bolivia",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Bhutan",
+   "state": "Bhutan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Benin",
+   "state": "Benin",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Belize",
+   "state": "Belize",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Belgium",
+   "state": "Belgium",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Belarus",
+   "state": "Belarus",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Barbados",
+   "state": "Barbados",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Bangladesh",
+   "state": "Bangladesh",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Bahrain",
+   "state": "Bahrain",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:The Bahamas",
+   "state": "The Bahamas",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Azerbaijan",
+   "state": "Azerbaijan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Austria",
+   "state": "Austria",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Australia",
+   "state": "Australia",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Indian Ocean Territories",
+   "state": "Indian Ocean Territories",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Norfolk Island",
+   "state": "Norfolk Island",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Ashmore and Cartier Islands",
+   "state": "Ashmore and Cartier Islands",
+   "continent": "Oceania"
+  },
+  {
+   "id": "country:Armenia",
+   "state": "Armenia",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Argentina",
+   "state": "Argentina",
+   "continent": "South America"
+  },
+  {
+   "id": "country:Antigua and Barbuda",
+   "state": "Antigua and Barbuda",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Angola",
+   "state": "Angola",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Andorra",
+   "state": "Andorra",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Algeria",
+   "state": "Algeria",
+   "continent": "Africa"
+  },
+  {
+   "id": "country:Albania",
+   "state": "Albania",
+   "continent": "Europe"
+  },
+  {
+   "id": "country:Afghanistan",
+   "state": "Afghanistan",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Siachen Glacier",
+   "state": "Siachen Glacier",
+   "continent": "Asia"
+  },
+  {
+   "id": "country:Antarctica",
+   "state": "Antarctica",
+   "continent": "Antarctica"
+  },
+  {
+   "id": "country:Sint Maarten",
+   "state": "Sint Maarten",
+   "continent": "North America"
+  },
+  {
+   "id": "country:Tuvalu",
+   "state": "Tuvalu",
+   "continent": "Oceania"
+  }
+ ]
+}

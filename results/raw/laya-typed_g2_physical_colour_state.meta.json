@@ -1,0 +1,9 @@
+{
+  "name": "laya-typed_g2_physical_colour_state",
+  "experiment": "physical_colour",
+  "coord_style": "hemi",
+  "layout": "state",
+  "model": "jev-latest",
+  "batch": 64,
+  "backend": "laya-typed"
+}
