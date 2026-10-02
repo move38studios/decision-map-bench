@@ -63,6 +63,7 @@ jevmap/
 scripts/
   bench.py, laya_bench.py, modal_laya.py, names.py      run the cross-model study
   bench_score.py, names_score.py, bench_figures.py      score and draw
+  og_images.py                                          1200x630 social cards
   phase0.py, phase1.py, main_runs.py, explore.py,
   phase4.py, original_prompt.py, analysis.py            the earlier Jev-only study (10°, 5°, 2°, 1° grids)
   laya_sanity.py                                        checks that Laya is run correctly

@@ -350,3 +350,9 @@ Throughput in this layout: ~10 requests/s per Clef model at concurrency 16; a co
 Blog draft 4 published (same URL). Final API spend: ≈ $80 (Jev $4.81, Clef ≈ $38, Clef-flash ≈ $38), plus a few minutes of L4 time on Modal.
 
 Repo goes public as move38studios/decision-map-bench (MIT, fresh single-commit history, journal included). Created private first; made public when the post is published.
+
+## Laya label, social cards (Oct 2, night)
+
+Laya's 29.0% on land/water is not anti-knowledge: its P(Land) stays in 0.57–0.67 at every point, so it says Land everywhere and scores the land share of the globe. AUC 0.69 is below a latitude-only predictor (0.75); with row means removed it is 0.63, so there is a faint longitude signal that never moves an answer. Bar chart and map sheet now label it "says Land everywhere".
+
+Social cards (1200×630, IBM Plex Sans, `scripts/og_images.py`): `og_landwater` (truth + four P(Land) maps), `og_continents` (truth + Jev, Clef, Clef-flash continent blocks), `og_names` (continent from a city name vs from a coordinate). Copied into `blog/img/`.

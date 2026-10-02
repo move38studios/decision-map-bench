@@ -48,7 +48,8 @@ def main() -> None:
         render.save(render.land_bw(p >= 0.5), f"bench_land_{key}")
         render.save(grey(p), f"bench_p_land_{key}")
         acc = bench.land_metrics(p, GRID)["accuracy"]
-        sheet.append((render.land_bw(p >= 0.5), f"{bench.LABEL[key]}   {acc:.1%}"))
+        label = f"{bench.LABEL[key]}   says Land everywhere ({acc:.1%})" if key.startswith("laya") else f"{bench.LABEL[key]}   {acc:.1%}"
+        sheet.append((render.land_bw(p >= 0.5), label))
         # Continent / ocean answers.
         render.save(continent_img(choices(bench.run_name(backend, "continent", layout))), f"bench_continent_{key}")
         # Physical, atlas colours.

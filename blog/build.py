@@ -103,7 +103,8 @@ for k in ("jev", "clef", "clef-flash"):
     }
 
 # ------------------------------------------------------------------ chart: accuracy vs Claudes
-rows = [(k, v / 100, "claude") for k, v in CLAUDE.items()] + [(NAME[k], oc[k]["accuracy"], k) for k in KEYS]
+BAR_NAME = dict(NAME, **{"laya-typed": "Laya (says Land everywhere)"})
+rows = [(k, v / 100, "claude") for k, v in CLAUDE.items()] + [(BAR_NAME[k], oc[k]["accuracy"], k) for k in KEYS]
 rows.sort(key=lambda r: -r[1])
 LO, HI = 0.2, 1.0
 
@@ -273,6 +274,7 @@ IMAGES = ["bench_sheet", "bench_land_truth"] + [f"bench_p_land_{k}" for k in KEY
     ["bench_continent_truth"] + [f"bench_continent_{k}" for k in KEYS] + \
     ["bench_political_truth"] + [f"bench_political_{k}" for k in pol] + [f"bench_political_all_{k}" for k in pol] + \
     ["bench_physical_truth"] + [f"bench_physical_colour_{k}" for k in KEYS]
+IMAGES += ["og_landwater", "og_continents", "og_names"]  # social cards (scripts/og_images.py)
 IMG.mkdir(parents=True, exist_ok=True)
 for n in IMAGES:
     shutil.copy(MAPS / f"{n}.png", IMG / f"{n}.png")
