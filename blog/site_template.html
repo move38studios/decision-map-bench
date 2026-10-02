@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How well do decision models know geography?</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="canonical" href="https://move38labs.com/{{SLUG}}/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="move38labs">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="How well do decision models know geography?">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="https://move38labs.com/{{SLUG}}/">
+  <meta property="og:image" content="https://move38labs.com/{{SLUG}}/cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Physical map of the Earth next to the maps drawn by Jev, Clef and Clef-flash">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preload" href="/shared/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/shared/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How well do decision models know geography?",
+    "description": "{{DESCRIPTION}}",
+    "datePublished": "{{DATE}}",
+    "dateModified": "{{DATE}}",
+    "image": "https://move38labs.com/{{SLUG}}/cover.png",
+    "mainEntityOfPage": "https://move38labs.com/{{SLUG}}/",
+    "author": { "@type": "Person", "name": "George Strakhov" },
+    "publisher": { "@type": "Organization", "name": "move38", "url": "https://move38.org/" }
+  }
+  </script>
+  <style>
+    /* Model colours are fixed across every chart. Wide figures break out of the text column. */
+    :root {
+      --fg: var(--text);
+      --panel: #ffffff;
+      --track: #ededed;
+      --claude: #b5b5b5;
+      --heat: #2f6f4f;
+      --m-jev: #d0491c;
+      --m-clef: #1f56d6;
+      --m-flash: #5ea3f0;
+      --m-laya: #8a4fd8;
+    }
+    body { overflow-x: clip; }
+    .wide { width: min(1080px, calc(100vw - 2.5rem)); margin-left: calc(50% - min(540px, calc(50vw - 1.25rem))); }
+    .note { color: var(--muted); font-size: 0.8em; margin-top: 0.5rem; }
+    .sw { display: inline-block; width: 0.7rem; height: 0.7rem; border-radius: 2px; margin-right: 0.4rem; vertical-align: 0; }
+    article figure img { width: 100%; height: auto; border: 1px solid var(--rule); background: #fff; }
+
+    .tldr { margin: 2rem 0; padding: 1.1rem 1.3rem; background: var(--surface); border-radius: 6px; }
+    .tldr h2 { font-size: 0.8em; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.6rem; }
+    .tldr ul { margin: 0; }
+
+    .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 0.4rem 1.2rem; }
+    .grid2 figure { margin: 1rem 0 0; min-width: 0; }
+
+    .tbl { overflow-x: auto; margin: 1.5rem 0; }
+    .tbl table { margin: 0; font-size: 0.82em; }
+    .tbl thead th { color: var(--muted); font-size: 0.85em; font-weight: 600; border-bottom: 1px solid var(--text); }
+    .tbl td + td, .tbl th + th { text-align: right; }
+    .tbl tr.base td { color: var(--muted); }
+    .tbl tr.tot td { font-weight: 700; }
+    .heat td { text-align: center !important; background: color-mix(in srgb, var(--heat) calc(var(--s) * 32%), transparent); }
+    .heat td b { display: block; }
+    .heat td small { font-size: 0.78em; color: var(--muted); }
+    .heat thead th { text-align: center !important; font-size: 0.78em; min-width: 7.5rem; }
+    .heat tbody th { white-space: nowrap; font-weight: 500; text-align: left; }
+
+    .bars { margin: 2.2rem 0 0; display: grid; gap: 0.22rem; position: relative; }
+    .bar { display: grid; grid-template-columns: 13rem 1fr 3.6rem; gap: 0.6rem; align-items: center; font-size: 0.8em; }
+    .bt { position: relative; height: 0.8rem; background: var(--track); }
+    .bf { position: absolute; inset: 0 auto 0 0; background: var(--claude); }
+    .bv { font-variant-numeric: tabular-nums; text-align: right; }
+    .bar.dm .bl, .bar.dm .bv { font-weight: 700; }
+    .axis { display: grid; grid-template-columns: 13rem 1fr 3.6rem; gap: 0.6rem; font-size: 0.7em; color: var(--muted); }
+    .axis .sc { position: relative; height: 1.1rem; }
+    .axis .sc span { position: absolute; transform: translateX(-50%); }
+    .baseline { position: absolute; top: 0; bottom: 0; width: 0; border-left: 1.5px dashed var(--muted); }
+    .basewrap { position: absolute; inset: 0 3.6rem 0 13.6rem; pointer-events: none; }
+    .basewrap span { position: absolute; top: -1.4rem; transform: translateX(-50%); font-size: 0.72em; color: var(--muted); white-space: nowrap; }
+
+    .chart2 { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 1.5rem; align-items: start; margin: 1.5rem 0; }
+    .stack { display: grid; gap: 0.5rem; margin: 1.5rem 0; }
+    .stack svg { max-width: 640px; }
+    article svg { width: 100%; height: auto; display: block; }
+    svg .g { stroke: var(--rule); stroke-width: 1; }
+    svg .diag { stroke: var(--muted); stroke-dasharray: 4 4; }
+    svg .tk { fill: var(--muted); font-size: 10px; }
+    svg .ax { fill: var(--text); font-size: 12px; }
+    svg .lbl { fill: var(--text); font-size: 13px; }
+    svg .conn { stroke: var(--muted); stroke-width: 1.5; }
+    svg .hollow { fill: var(--bg); stroke-width: 2.5; }
+    .legend { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; font-size: 0.8em; color: var(--muted); margin-top: 0.6rem; }
+    .legend i { display: inline-block; width: 0.75rem; height: 0.75rem; vertical-align: -0.1rem; margin-right: 0.3rem; border: 1px solid var(--rule); }
+    .prompt { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.78em; background: var(--surface); border-radius: 6px; padding: 0.9rem 1rem; margin: 1.25rem 0; overflow-x: auto; white-space: pre-wrap; line-height: 1.5; }
+
+    @media (max-width: 680px) {
+      .chart2 { grid-template-columns: minmax(0, 1fr); }
+      .bar, .axis { grid-template-columns: 7.5rem 1fr 3.2rem; }
+      .basewrap { inset: 0 3.2rem 0 8.1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-name" href="/">move38labs</a>
+  </header>
+
+  <main>
+    <article>
+      <h1>How well do decision models know geography?</h1>
+      <p class="meta">George Strakhov · <time datetime="{{DATE}}">{{DATE_LONG}}</time></p>
+
+{{CONTENT}}
+
+      <hr>
+
+      <p>Code, raw answers and journal: <a href="https://github.com/move38studios/decision-map-bench">github.com/move38studios/decision-map-bench</a>. Total API spend for the study: {{COST_TOTAL}}.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <a href="https://move38.org/">move38.org</a>
+  </footer>
+  <!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "2cce8e75f165401981a7cbecedc76f61"}'></script>
+</body>
+</html>

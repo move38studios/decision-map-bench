@@ -118,6 +118,7 @@ footer { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--rule);
   <p class="byline">October 2026 · Jev 1.13, Clef, Clef-flash, Laya · 16,200 points per map</p>
 </header>
 
+<!-- CONTENT START -->
 <p>Decision models answer typed questions instead of generating text: a yes/no question returns a probability, a multiple-choice question returns a probability for every option. Jev (TypeSafe), Clef and Clef-flash (Cloudflare) and Laya (open weights) all work this way.</p>
 <p>A popular eval for language models asks "Land or Water?" at every 2° of the globe and plots the answers as a map (<a href="https://outsidetext.substack.com/p/how-does-a-blind-model-see-the-earth">original post</a>; <a href="https://x.com/celestepoasts/status/2103232383139057950">results for 12 Claude models</a>). Decision models are a natural fit for it: the probability comes back directly. Jev maps have been <a href="https://x.com/arithmoquine/status/2103147890315325714">shown before</a>, without scores. This post scores four decision models on the same grid, with seven ways of asking, and checks what they know when given place names instead of coordinates.</p>
 
@@ -230,9 +231,10 @@ question:  choice  "If this location is over land, say 'Land'. If this location 
   <li>The land mask counts large lakes (Caspian Sea, Lake Victoria) as land.</li>
   <li>Coordinate format was chosen on Jev and then checked on Clef and Clef-flash on the 10° grid: the same format wins for both. Where the coordinate goes does differ by model, and each section uses each model's better setting.</li>
   <li>Claude scores are read from the published chart; that eval read P(Land) from token log-probabilities.</li>
-  <li>Laya was also run with the coordinate as the state instead of in the question. Results were the same: no signal.</li>
+  <li>Laya was also run with the coordinate as the state instead of in the question. Results were the same: near chance.</li>
   <li>OpenAI has announced a decision API but has not published it, so it is not included.</li>
 </ul>
 
+<!-- CONTENT END -->
 <footer>Code, raw answers and journal: <a href="https://github.com/move38studios/decision-map-bench">github.com/move38studios/decision-map-bench</a>. Total API spend for the study: $80.</footer>
 </main>

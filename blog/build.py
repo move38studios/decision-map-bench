@@ -354,4 +354,32 @@ for k, v in subs.items():
     page = page.replace("{{" + k + "}}", v)
 assert "{{" not in page, page[page.index("{{") : page.index("{{") + 40]
 (OUT / "index.html").write_text(page)
+
+# Site version (move38labs.com): same content, the site's head, header and styles.
+#   uv run python -m blog.build --site ~/dev/move38labs.com/public/decision-models-geography
+import sys
+from pathlib import Path
+
+if "--site" in sys.argv:
+    site_dir = Path(sys.argv[sys.argv.index("--site") + 1]).expanduser()
+    content = page.split("<!-- CONTENT START -->", 1)[1].split("<!-- CONTENT END -->", 1)[0]
+    content = content.replace('src="img/', 'src="')
+    site = (OUT / "site_template.html").read_text()
+    for k, v in {
+        "CONTENT": content,
+        "SLUG": site_dir.name,
+        "DATE": "2026-10-02",
+        "DATE_LONG": "2 October 2026",
+        # Verbatim from the post's introduction.
+        "DESCRIPTION": "This post scores four decision models on the same grid, with seven ways of asking, and checks what they know when given place names instead of coordinates.",
+        "COST_TOTAL": subs["COST_TOTAL"],
+    }.items():
+        site = site.replace("{{" + k + "}}", v)
+    assert "{{" not in site
+    site_dir.mkdir(parents=True, exist_ok=True)
+    (site_dir / "index.html").write_text(site)
+    for n in IMAGES:
+        if not n.startswith("og_") and f'src="{n}.png"' in site:
+            shutil.copy(IMG / f"{n}.png", site_dir / f"{n}.png")
+    print("wrote", site_dir / "index.html")
 print("wrote", OUT / "index.html", "| total API cost", f"${cost_total:.2f}")
